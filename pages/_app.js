@@ -1,17 +1,9 @@
 import '../styles/globals.css';
 import styled, { createGlobalStyle } from 'styled-components';
-import { Footer } from '../pages/src/components/common/footer/footer.component';
-import { Navbar } from '../pages/src/components/common/navbar/navbar.component';
-import { Container } from './src/components/common/container/container.component';
+import { Container, Footer, Navbar } from '../src/components';
 
 const GlobalStyles = createGlobalStyle`
-/* check later */
-  @font-face {
-    font-family: 'Wotfard';
-    src: url('/static/fonts/Wotfard/Wotfard-Bold.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-  }
+
 
 *{
   margin:0;

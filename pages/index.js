@@ -1,17 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
-import { Navbar } from './src/components/common/navbar/navbar.component';
-
-import { Hero } from './src/components/hero/hero.component';
-
-import { WhySection } from './src/components/why-section/why-section.component';
-import { TechStack } from './src/components/tech-stack/tech-stack.component';
-import { JoinCommunity } from './src/components/join-community/join-community.component';
-import { Features } from './src/components/features/features.component';
-import { Faq } from './src/components/faq/faq.component';
-import { RoadMap } from './src/components/roadmap/roadmap.component';
-import { HowItWorks } from './src/components/how/how.component';
+import { Faq, Features, Hero, HowItWorks, JoinCommunity, RoadMap, WhySection, TechStack } from '../src/components';
 
 export default function Home() {
   return (

@@ -42,7 +42,7 @@ export const HowItWorks = () => {
             <>
               <h4> Creating a safe</h4>
               <div>
-                <img src='https://safient.io/images/how2.gif' alt='img' />
+                <img src='/images/how1.gif' alt='img' />
               </div>
             </>
           )}
@@ -51,7 +51,7 @@ export const HowItWorks = () => {
             <>
               <h4>Claiming the safe</h4>
               <div>
-                <img src='https://safient.io/images/how2.gif' alt='img' />
+                <img src='/images/how2.gif' alt='img' />
               </div>
             </>
           )}
@@ -60,7 +60,7 @@ export const HowItWorks = () => {
             <>
               <h4>Recovering the safe</h4>
               <div>
-                <img src='https://safient.io/images/how2.gif' alt='img' />
+                <img src='/images/how3.gif' alt='img' />
               </div>
             </>
           )}
