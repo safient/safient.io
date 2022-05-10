@@ -6,6 +6,7 @@ export const HeaderContainer = styled.header`
   position: sticky;
   top: 0;
   background: #151719;
+  z-index: 50;
 `;
 
 export const NavbarContainer = styled.nav`
@@ -29,6 +30,9 @@ export const NavbarContainer = styled.nav`
     justify-content: center;
     gap: 2rem;
     color: #d9e3ea;
+    @media (max-width: 576px) {
+      display: none;
+    }
   }
   li {
     /* font-size: 1.8rem; */
@@ -47,4 +51,32 @@ export const NavbarContainer = styled.nav`
     border-bottom: 2px solid #5d5dff;
     transition: 0.2s ease;
   }
+
+  .hamburger {
+    display: none;
+  }
+  @media (max-width: 576px) {
+    display: flex;
+    align-items: flex-start;
+
+    i {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 2rem;
+    }
+    .hamburger {
+      display: block;
+      position: relative;
+
+      ul {
+        display: block;
+      }
+    }
+  }
+`;
+
+export const MobileMenuContainer = styled.div`
+  width: 100% !important;
+  position: absolute;
+  right: 1000%;
 `;

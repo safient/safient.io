@@ -2,16 +2,28 @@ import styled from 'styled-components';
 
 export const FeaturesContainer = styled.div`
   margin: 10rem 0;
+  h2 {
+    text-align: center;
+  }
+  @media (max-width: 576px) {
+    margin-top: 12rem;
+    h2 {
+      line-height: 1.4;
+    }
+  }
 `;
 
 export const FeatureCard = styled.div`
-  background: #1d1f22;
+  background: #25282c;
   padding: 4rem;
   flex: 0 0 38.4rem;
   transition: box-shadow 0.3s;
   &:hover {
     cursor: pointer;
     box-shadow: 0 0 11px #5d5dff;
+  }
+  @media (max-width: 576px) {
+    flex: 0 0 34.4rem;
   }
 `;
 
@@ -29,6 +41,9 @@ export const CardsContainer = styled.div`
   p {
     margin-top: 1rem;
     line-height: 1.9;
+  }
+  @media (max-width: 576px) {
+    justify-content: center;
   }
 `;
 

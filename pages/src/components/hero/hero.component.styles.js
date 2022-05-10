@@ -2,25 +2,44 @@ import styled from 'styled-components';
 import { Button } from '../button/button';
 
 export const HeroContainer = styled.section`
-  /* height: 70vh; */
+  /* background: red; */
 `;
 
 export const StyledDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70vh;
+  height: 100%;
+  flex-wrap: wrap;
+  margin-top: 12.8rem;
   .hero-image {
-    width: 729px;
+    width: 100rem;
+    margin-top: 8rem;
   }
 
   .sub-heading {
     margin-top: 2rem;
   }
+  p {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  @media (max-width: 576px) {
+    .hero-image {
+      display: none;
+    }
+
+    margin-top: 4rem;
+  }
 `;
 
 export const ButtonContainer = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 2rem;
   margin: 2.4rem 0;
 `;

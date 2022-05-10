@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SectionContainer = styled.section`
-  margin: 8rem 0;
+  margin: 10rem 0;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -10,12 +10,16 @@ export const SectionContainer = styled.section`
   p {
     text-align: center;
   }
+
+  @media (max-width: 576px) {
+    padding: 0 1rem;
+  }
 `;
 
 export const StepsContainer = styled.div`
   display: flex;
   gap: 4rem;
-  margin-top: 3.2rem;
+  margin-top: 4rem;
   flex-wrap: wrap;
 `;
 
@@ -55,6 +59,16 @@ export const PreviewContainer = styled.div`
   }
   img {
     width: 548px;
+  }
+
+  @media (max-width: 576px) {
+    img {
+      max-inline-size: 100%;
+      block-size: auto;
+      aspect-ratio: 2/1;
+      object-fit: cover;
+      object-position: top center;
+    }
   }
 `;
 

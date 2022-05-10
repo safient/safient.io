@@ -26,10 +26,11 @@ const pulse = keyframes`
 `;
 
 export const SectionContainer = styled.section`
-  margin: 2rem 0;
+  margin: 6rem 0;
 
   h2 {
     margin: 1rem 0;
+    text-align: center;
   }
 
   p {
@@ -42,6 +43,14 @@ export const SectionContainer = styled.section`
     border-radius: 50%;
     -webkit-animation-name: ${pulse} 0.7s linear infinite;
     /* position: absolute; */
+  }
+  @media (max-width: 576px) {
+    h2,
+    p {
+      text-align: center;
+    }
+
+    padding: 2rem;
   }
 `;
 
@@ -66,5 +75,11 @@ export const StyledDiv = styled.div`
     /* flex: 1; */
     align-self: flex-end !important;
     /* position: relative; */
+  }
+
+  @media (max-width: 576px) {
+    img {
+      width: 100%;
+    }
   }
 `;

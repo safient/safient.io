@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
   margin: 5rem 0;
+  @media (max-width: 576px) {
+    padding: 3rem;
+  }
 `;
 
 export const Navs = styled.nav`
@@ -11,6 +14,9 @@ export const Navs = styled.nav`
   justify-content: space-evenly;
   border-top: 1px solid #9ba9b4;
   padding: 8rem 0 4rem 0;
+  @media (max-width: 576px) {
+    justify-content: space-between;
+  }
 `;
 
 export const StyledDiv = styled.div`
@@ -35,6 +41,12 @@ export const StyledDiv = styled.div`
     color: #5d5dff;
     cursor: pointer;
   }
+  @media (max-width: 576px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
 `;
 
 export const Copy = styled.div`
@@ -45,5 +57,8 @@ export const Copy = styled.div`
   &:hover {
     color: #5d5dff;
     cursor: pointer;
+  }
+  @media (max-width: 576px) {
+    text-align: center;
   }
 `;

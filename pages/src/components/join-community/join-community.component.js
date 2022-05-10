@@ -53,6 +53,19 @@ export const NewsLetterContainer = styled.div`
     cursor: pointer;
     z-index: 10;
   }
+
+  @media (max-width: 576px) {
+    padding: 1rem;
+    button {
+      width: 100%;
+      margin: 0rem 0 2rem 0;
+    }
+
+    input {
+      width: 100%;
+      margin: 2rem 0 2rem 0;
+    }
+  }
 `;
 
 export const JoinCommunity = () => {

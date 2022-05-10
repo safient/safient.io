@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
 export const TeckStackContainer = styled.section`
-  margin: 6rem 0 6rem 0;
+  margin: 8rem 0 8rem 0;
+  h2 {
+    text-align: center;
+  }
 `;
 
 export const TechContainer = styled.div`
@@ -15,6 +18,13 @@ export const TechContainer = styled.div`
     width: 540px;
     height: auto;
   }
+  @media (max-width: 576px) {
+    flex-direction: column;
+    padding: 0 1rem;
+    img {
+      width: 100%;
+    }
+  }
 `;
 
 export const LogoContainer = styled.div`
@@ -24,6 +34,9 @@ export const LogoContainer = styled.div`
 export const DescriptionContainer = styled.div`
   flex: 2;
   align-self: center;
+  @media (max-width: 576px) {
+    margin-top: -8rem;
+  }
 `;
 
 export const StyledDiv = styled.div`

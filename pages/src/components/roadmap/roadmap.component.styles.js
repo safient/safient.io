@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const RoadMapContainer = styled.section`
   border-radius: 0.5rem;
+  @media (max-width: 576px) {
+    margin: 0 1rem;
+  }
 `;
 
 export const RoadMaps = styled.div`
@@ -12,6 +15,7 @@ export const RoadMaps = styled.div`
   background: #25282c;
   padding: 4rem;
   gap: 4rem;
+  flex-wrap: wrap;
   &:hover {
     cursor: pointer;
     box-shadow: 0 0 12px #5d5dff;
