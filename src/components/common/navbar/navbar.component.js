@@ -14,23 +14,23 @@ export const Navbar = () => {
       <NavbarContainer>
         {' '}
         <Link href='/'>
-          <img src='logo.svg' alt='' />
+          <img src='logo.svg' alt=''/>
         </Link>
         <ul>
           <li className={pathname === '/blog' && 'active'}>
-            <Link href='/blog'>Blog</Link>
+            <Link href='https://blog.safient.io'>Blog</Link>
           </li>
           <li className={pathname === '/docs' && 'active'}>
-            <Link href='/docs'>Docs</Link>
+            <Link href='https://docs.safient.io'>Docs</Link>
           </li>
 
           <li className={pathname === '/developers' && 'active'}>
-            <Link href='/timeline'>Developers</Link>
+            <Link href='https://docs.safient.io/dev-overview'>Developers</Link>
           </li>
           <li className={pathname === '/app' && 'active'}>
-            <Link href='/contact'>
+            <a href='https://try.safient.io'>
               <Button>App</Button>
-            </Link>
+            </a>
           </li>
         </ul>
         {/* mobile nav */}
@@ -42,17 +42,17 @@ export const Navbar = () => {
             <MobileMenuContainer>
               <ul>
                 <li className={pathname === '/blog' && 'active'}>
-                  <Link href='/blog'>Blog</Link>
+                  <Link href='https://blog.safient.io'>Blog</Link>
                 </li>
                 <li className={pathname === '/docs' && 'active'}>
-                  <Link href='/docs'>Docs</Link>
+                  <Link href='https://docs.safient.io'>Docs</Link>
                 </li>
 
                 <li className={pathname === '/developers' && 'active'}>
-                  <Link href='/timeline'>Developers</Link>
+                  <Link href='https://docs.safient.io/dev-overview'>Developers</Link>
                 </li>
                 <li className={pathname === '/app' && 'active'}>
-                  <Link href='/contact'>
+                  <Link href='https://try.safient.io'>
                     <Button>App</Button>
                   </Link>
                 </li>

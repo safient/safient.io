@@ -13,7 +13,7 @@ export const StyledDiv = styled.div`
   flex-wrap: wrap;
   margin-top: 12.8rem;
   .hero-image {
-    width: 100rem;
+    width: 70rem;
     margin-top: 8rem;
   }
 

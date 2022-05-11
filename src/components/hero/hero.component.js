@@ -9,15 +9,15 @@ export const Hero = () => {
         <StyledDiv>
           <div>
             <h2>
-              Trustless crypto asset <Span>Safe</Span> and <Span>Inheritance</Span> Protocol
+              Recover and Inherit your  <Span>crypto assets</Span> using <Span>Safient Safes</Span>
             </h2>
             <p className='sub-heading'>
               Manage your crypto secrets securely and conveniently that help you or your beneficiaries to claim crypto
               assets without intermediaries.
             </p>
             <ButtonContainer>
-              <Button>Try Now</Button>
-              <GhostButton>Read More</GhostButton>
+              <a href="https://try.safient.io/"><Button>Try Now</Button></a>
+              <a href="https://resources.safient.io/"><GhostButton>Read More</GhostButton></a>
             </ButtonContainer>
           </div>
           <div>

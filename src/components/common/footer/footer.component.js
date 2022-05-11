@@ -75,9 +75,7 @@ export const Footer = () => {
         </Navs>
         <Copy>
           <div>
-            <a href='https://github.com/safientio' target='_next'>
               <p> &copy; {new Date().getFullYear()} Crafted with ❣️ by Consenso Labs.</p>
-            </a>
           </div>
         </Copy>
       </Container>
