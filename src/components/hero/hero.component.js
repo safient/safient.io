@@ -9,7 +9,7 @@ export const Hero = () => {
         <StyledDiv>
           <div>
             <h2>
-              Trustless crypto asset <Span>Safe</Span> and <Span>Inheritance</Span> Protocol
+              Non-custodial secret <Span>Recovery</Span> and <Span>Inheritance</Span> Protocol
             </h2>
             <p className='sub-heading'>
               Manage your crypto secrets securely and conveniently that help you or your beneficiaries to claim crypto

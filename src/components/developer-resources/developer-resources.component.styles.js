@@ -46,6 +46,9 @@ export const CardsContainer = styled.div`
     margin-top: 1rem;
     line-height: 1.9;
   }
+  .linkText {
+    color: #5d5dff;
+  }
   @media (max-width: 576px) {
     justify-content: center;
   }

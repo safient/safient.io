@@ -1,5 +1,15 @@
 import Head from 'next/head';
-import { Faq, Features, Hero, HowItWorks, JoinCommunity, RoadMap, WhySection, TechStack } from '../src/components';
+import {
+  Faq,
+  Features,
+  Hero,
+  HowItWorks,
+  JoinCommunity,
+  RoadMap,
+  WhySection,
+  TechStack,
+  DeveloperResources,
+} from '../src/components';
 
 export default function Home() {
   return (
@@ -20,12 +30,13 @@ export default function Home() {
       <Hero />
       <Features />
       <WhySection />
-      <HowItWorks />
+      {/* <HowItWorks /> */}
       <TechStack />
 
       <RoadMap />
       <JoinCommunity />
       <Faq />
+      <DeveloperResources />
     </div>
   );
 }

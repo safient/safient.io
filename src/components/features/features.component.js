@@ -13,26 +13,9 @@ const data = [
   },
   {
     icon: '/icons/confidential.svg',
-    heading: 'Trustless Recovery Protocol',
+    heading: 'Trustless Protocol',
     description:
       'The safes are protected and governed by trustless guardians and arbitrators (Using Kleros) to ensure the highest degree of resilience.',
-  },
-  {
-    icon: '/icons/dispute.svg',
-    heading: 'Dispute Resolution',
-    description:
-      'Dipute resolution platform quickly resolves all the claims for inheritance of safes. Currently using Kleros court.',
-  },
-  {
-    icon: '/icons/shared.svg',
-    heading: 'Share Portfolio',
-    description:
-      'Safient allows to share portfolio confidentially on need to know basis with the beneficiaries even before the safe is recovered.',
-  },
-  {
-    icon: '/icons/decentralized.svg',
-    heading: 'Decentralization - Simplified',
-    description: 'Onboarding and using a trustless, decentralized application is always intimidating. ',
   },
 ];
 

@@ -14,3 +14,4 @@ export * from './roadmap/roadmap.component';
 export * from './how/how.component';
 export * from './tech-stack/tech-stack.component';
 export * from './why-section/why-section.component';
+export * from './developer-resources/developer-resources.component';
