@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
-  height: 8rem;
+  height: 9rem;
   padding: 2rem;
   position: sticky;
   top: 0;
@@ -76,7 +76,13 @@ export const NavbarContainer = styled.nav`
 `;
 
 export const MobileMenuContainer = styled.div`
-  width: 100% !important;
-  position: absolute;
-  right: 1000%;
+  width: 100%;
+
+  padding: 4rem;
+  background: #1d1f22;
+
+  ul {
+    display: inline-block;
+    width: 100%;
+  }
 `;

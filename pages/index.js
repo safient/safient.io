@@ -9,6 +9,7 @@ import {
   WhySection,
   TechStack,
   DeveloperResources,
+  ProductSection,
 } from '../src/components';
 
 export default function Home() {
@@ -28,15 +29,16 @@ export default function Home() {
       </Head>
 
       <Hero />
-      <Features />
       <WhySection />
+      <Features />
       {/* <HowItWorks /> */}
+      <ProductSection />
       <TechStack />
 
-      <RoadMap />
-      <JoinCommunity />
-      <Faq />
       <DeveloperResources />
+      {/* <RoadMap /> */}
+      <JoinCommunity />
+      {/* <Faq /> */}
     </div>
   );
 }

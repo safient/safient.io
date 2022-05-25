@@ -4,12 +4,16 @@ import styled from 'styled-components';
 export const StyledButton = styled.button`
   /* background: #5d5dff; */
   background: linear-gradient(89.58deg, #44bcf0 -19.85%, #818cf8 54.07%, #a099ff 120.75%);
-
+  /*
+  background: linear-gradient(90deg, transparent, transparent),
+    linear-gradient(209.87deg, #9363f9 30.11%, #e55a54 97.41%); */
+  background: linear-gradient(90deg, transparent, transparent),
+    linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%);
   color: #fff;
   font: inherit;
   font-size: 1.6rem;
   font-weight: 500;
-  padding: 1.2rem 3.2rem;
+  padding: 0.6rem 3.2rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -18,6 +22,6 @@ export const StyledButton = styled.button`
   }
 `;
 
-export function Button({ children }) {
-  return <StyledButton>{children}</StyledButton>;
+export function Button({ children, onClick }) {
+  return <StyledButton onClick={onClick}>{children}</StyledButton>;
 }

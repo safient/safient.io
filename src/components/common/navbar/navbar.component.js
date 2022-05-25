@@ -17,6 +17,9 @@ export const Navbar = () => {
           <img src='logo.svg' alt='' />
         </Link>
         <ul>
+          <li className={pathname === '/about' && 'active'}>
+            <Link href='/about'>About Us</Link>
+          </li>
           <li className={pathname === '/blog' && 'active'}>
             <Link href='/blog'>Blog</Link>
           </li>
@@ -27,11 +30,12 @@ export const Navbar = () => {
           <li className={pathname === '/developers' && 'active'}>
             <Link href='/timeline'>Developers</Link>
           </li>
-          <li className={pathname === '/app' && 'active'}>
+
+          {/* <li className={pathname === '/app' && 'active'}>
             <Link href='/contact'>
               <Button>App</Button>
             </Link>
-          </li>
+          </li> */}
         </ul>
         {/* mobile nav */}
         <div className='hamburger'>
@@ -40,7 +44,10 @@ export const Navbar = () => {
           </div>
           {isActive && (
             <MobileMenuContainer>
-              <ul>
+              <ul onClick={() => setIsActive(!isActive)}>
+                <li className={pathname === '/about' && 'active'}>
+                  <Link href='/about'>About Us</Link>
+                </li>
                 <li className={pathname === '/blog' && 'active'}>
                   <Link href='/blog'>Blog</Link>
                 </li>
@@ -51,6 +58,7 @@ export const Navbar = () => {
                 <li className={pathname === '/developers' && 'active'}>
                   <Link href='/timeline'>Developers</Link>
                 </li>
+
                 <li className={pathname === '/app' && 'active'}>
                   <Link href='/contact'>
                     <Button>App</Button>

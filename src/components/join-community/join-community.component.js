@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const JoinContainer = styled.section`
   position: relative;
   background: #5d5dff;
+
   color: #fff;
 `;
 export const BlobContainer = styled.div`

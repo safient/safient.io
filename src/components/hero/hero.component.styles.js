@@ -2,16 +2,14 @@ import styled from 'styled-components';
 import { Button } from '../button/button';
 
 export const HeroContainer = styled.section`
-  /* background: red; */
-`;
-
-export const StyledDiv = styled.div`
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
   flex-wrap: wrap;
-  margin-top: 18rem;
+  margin: 28rem auto;
+
   .hero-image {
     width: 100rem;
     margin-top: 8rem;
@@ -51,6 +49,8 @@ export const StyledDiv = styled.div`
   }
 `;
 
+export const StyledDiv = styled.div``;
+
 export const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
@@ -66,7 +66,7 @@ export const GhostButton = styled.button`
   font: inherit;
   font-size: 1.6rem;
   font-weight: 500;
-  padding: 1.2rem 3.2rem;
+  padding: 0.8rem 3.2rem;
 
   border-radius: 5px;
   cursor: pointer;
@@ -80,6 +80,11 @@ export const Span = styled.span`
   background-color: #44bcf0;
   /* background-image: linear-gradient(45deg, #818cf8, #44bcf0); */
   background-image: linear-gradient(43deg, #e85602 0, #f5b46c 29%, #d9caf4 68%);
+  /* background-image: linear-gradient(90deg, transparent, transparent),
+    linear-gradient(209.87deg, #9363f9 30.11%, #e55a54 97.41%); */
+
+  background: linear-gradient(90deg, transparent, transparent),
+    linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;

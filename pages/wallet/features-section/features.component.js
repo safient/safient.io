@@ -3,8 +3,8 @@ import { FeatureCard, FeaturesContainer, CardsContainer, IconContainer } from '.
 const data = [
   {
     icon: '/icons/encrypted.svg',
-    heading: 'Secure Safes',
-    description: 'Backup your secrets on our Safient safe that can only be recovered by you at any time.',
+    heading: 'Non-Custodial',
+    description: 'We never have access to any of your data or funds. Ever.',
   },
   {
     icon: '/icons/api.svg',
@@ -15,14 +15,15 @@ const data = [
     icon: '/icons/confidential.svg',
     heading: 'Trustless Protocol',
     description:
-      'The safes are protected and governed by trustless guardians and arbitrators (Using Kleros) to ensure the highest degree of resilience.',
+      'The safes are protected and governed by trustless guardians to ensure the highest degree of resilience.',
   },
 ];
 
-export const Features = () => {
+export const FeatureSection = () => {
   return (
     <FeaturesContainer>
-      <h2>What makes Safient Protocol Special?</h2>
+      <h2>We’ve got you covered</h2>
+      <p className='sub-heading'>Safient Wallet has everything you need to traverse the Web3 ecosystem</p>
       <CardsContainer>
         {data.map(({ icon, heading, description }, index) => (
           <FeatureCard key={index}>

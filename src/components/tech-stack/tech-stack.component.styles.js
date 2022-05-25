@@ -4,6 +4,7 @@ export const TeckStackContainer = styled.section`
   margin: 8rem 0 8rem 0;
   h2 {
     text-align: center;
+    font-size: 36px;
   }
 `;
 

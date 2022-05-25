@@ -30,7 +30,7 @@ const data = [
 export const DeveloperResources = () => {
   return (
     <FeaturesContainer>
-      <h2>Whant to Get Started?</h2>
+      <h2>Safient Resources</h2>
       <CardsContainer>
         {data.map(({ icon, heading, description, linkText, link }, index) => (
           <FeatureCard key={index}>
