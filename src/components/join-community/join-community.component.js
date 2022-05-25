@@ -13,7 +13,7 @@ export const BlobContainer = styled.div`
 `;
 
 export const NewsLetterContainer = styled.div`
-  padding: 64px 70px;
+  padding: 6.4rem 7rem;
 
   display: flex;
   flex-wrap: wrap;
@@ -28,7 +28,6 @@ export const NewsLetterContainer = styled.div`
     font-size: 2rem;
   }
   input {
-    /* height: 5rem; */
     min-width: 30.4rem;
     border: none;
     border-radius: 0.5rem;
@@ -55,7 +54,7 @@ export const NewsLetterContainer = styled.div`
     z-index: 10;
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     padding: 1rem;
     button {
       width: 100%;

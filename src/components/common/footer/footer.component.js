@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { Container } from '../container/container.component';
 import { FooterContainer, Navs, StyledDiv, Copy } from './footer.component.styles';
 

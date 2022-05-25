@@ -11,7 +11,7 @@ export const SectionContainer = styled.section`
     text-align: center;
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     padding: 0 1rem;
   }
 `;
@@ -35,9 +35,7 @@ export const PreviewContainer = styled.div`
   display: flex;
   flex-direction: column;
   aligh-items: center;
-  /* justify-content: center; */
   background: #25282c;
-  /* height: 0px; */
   margin-top: 2rem;
   width: 100%;
   padding: 4rem;
@@ -61,7 +59,7 @@ export const PreviewContainer = styled.div`
     width: 548px;
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     img {
       max-inline-size: 100%;
       block-size: auto;

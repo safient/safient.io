@@ -16,7 +16,9 @@ export const Hero = () => {
         </p>
         <ButtonContainer>
           <Button onClick={() => window.open('https://try.safient.io/')}>Try Now</Button>
-          <GhostButton onClick={() => console.log('dhjddh')}>Read More</GhostButton>
+          <GhostButton onClick={() => window.open('https://resources.safient.io/5634e113176f41cc946ee2bc60a92ac8')}>
+            Read More
+          </GhostButton>
         </ButtonContainer>
       </div>
       {/* <div>

@@ -1,11 +1,8 @@
 import Head from 'next/head';
 import {
-  Faq,
   Features,
   Hero,
-  HowItWorks,
   JoinCommunity,
-  RoadMap,
   WhySection,
   TechStack,
   DeveloperResources,
@@ -27,18 +24,13 @@ export default function Home() {
           referrerpolicy='no-referrer'
         />
       </Head>
-
       <Hero />
       <WhySection />
       <Features />
-      {/* <HowItWorks /> */}
       <ProductSection />
       <TechStack />
-
       <DeveloperResources />
-      {/* <RoadMap /> */}
       <JoinCommunity />
-      {/* <Faq /> */}
     </div>
   );
 }

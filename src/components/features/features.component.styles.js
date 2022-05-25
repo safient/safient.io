@@ -19,14 +19,6 @@ export const FeatureCard = styled.div`
   padding: 4rem;
   flex: 0 0 38.4rem;
   transition: box-shadow 0.3s;
-  /* border: 0.1px solid;
-  border-image-slice: 1; */
-  /**remove lateer */
-  /* background: linear-gradient(90deg, transparent, transparent),
-    linear-gradient(209.87deg, #9363f9 30.11%, #e55a54 97.41%);
-
-  background: linear-gradient(90deg, transparent, transparent),
-    linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%); */
   border-radius: 0.5rem;
   &:hover {
     cursor: pointer;
@@ -34,7 +26,7 @@ export const FeatureCard = styled.div`
 
     border-image-source: linear-gradient(43deg, #e85602 0, #f5b46c 29%, #d9caf4 68%);
   }
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     flex: 0 0 34.4rem;
   }
 `;
@@ -55,7 +47,7 @@ export const CardsContainer = styled.div`
     line-height: 1.9;
     color: #d9e3ea;
   }
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     justify-content: center;
   }
 `;
@@ -66,9 +58,7 @@ export const IconContainer = styled.div`
   background: linear-gradient(90deg, transparent, transparent),
     linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%);
   display: inline-flex;
-
   border-radius: 50%;
-
   img {
     padding: 2rem;
   }

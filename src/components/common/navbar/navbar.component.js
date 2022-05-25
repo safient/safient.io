@@ -21,21 +21,21 @@ export const Navbar = () => {
             <Link href='/about'>About Us</Link>
           </li>
           <li className={pathname === '/blog' && 'active'}>
-            <Link href='/blog'>Blog</Link>
+            <a href='https://medium.com/safient' target='_next'>
+              Blog
+            </a>
           </li>
           <li className={pathname === '/docs' && 'active'}>
-            <Link href='/docs'>Docs</Link>
+            <a href='https://docs.safient.io/' target='_next'>
+              Docs
+            </a>
           </li>
 
           <li className={pathname === '/developers' && 'active'}>
-            <Link href='/timeline'>Developers</Link>
+            <a href='https://docs.safient.io/dev-overview' target='_next'>
+              Developers
+            </a>
           </li>
-
-          {/* <li className={pathname === '/app' && 'active'}>
-            <Link href='/contact'>
-              <Button>App</Button>
-            </Link>
-          </li> */}
         </ul>
         {/* mobile nav */}
         <div className='hamburger'>
@@ -49,20 +49,20 @@ export const Navbar = () => {
                   <Link href='/about'>About Us</Link>
                 </li>
                 <li className={pathname === '/blog' && 'active'}>
-                  <Link href='/blog'>Blog</Link>
+                  <a href='https://medium.com/safient' target='_next'>
+                    Blog
+                  </a>
                 </li>
                 <li className={pathname === '/docs' && 'active'}>
-                  <Link href='/docs'>Docs</Link>
+                  <a href='https://docs.safient.io/' target='_next'>
+                    Docs
+                  </a>
                 </li>
 
                 <li className={pathname === '/developers' && 'active'}>
-                  <Link href='/timeline'>Developers</Link>
-                </li>
-
-                <li className={pathname === '/app' && 'active'}>
-                  <Link href='/contact'>
-                    <Button>App</Button>
-                  </Link>
+                  <a href='https://docs.safient.io/dev-overview' target='_next'>
+                    Developers
+                  </a>
                 </li>
               </ul>
             </MobileMenuContainer>

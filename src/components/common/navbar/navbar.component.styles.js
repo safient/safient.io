@@ -10,7 +10,7 @@ export const HeaderContainer = styled.header`
 `;
 
 export const NavbarContainer = styled.nav`
-  max-width: 1400px;
+  max-width: 140rem;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -30,13 +30,11 @@ export const NavbarContainer = styled.nav`
     justify-content: center;
     gap: 2rem;
     color: #d9e3ea;
-    @media (max-width: 576px) {
+    @media (max-width: 57.6rem) {
       display: none;
     }
   }
-  li {
-    /* font-size: 1.8rem; */
-  }
+
   li:hover {
     color: #5d5dff;
     cursor: pointer;
@@ -55,7 +53,7 @@ export const NavbarContainer = styled.nav`
   .hamburger {
     display: none;
   }
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     display: flex;
     align-items: flex-start;
 

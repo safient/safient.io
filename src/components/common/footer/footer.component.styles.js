@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
   margin: 5rem 0;
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     padding: 3rem;
   }
 `;
@@ -14,7 +14,7 @@ export const Navs = styled.nav`
   justify-content: space-evenly;
   border-top: 1px solid #9ba9b4;
   padding: 8rem 0 4rem 0;
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     justify-content: space-between;
   }
 `;
@@ -41,7 +41,7 @@ export const StyledDiv = styled.div`
     color: #5d5dff;
     cursor: pointer;
   }
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -58,7 +58,7 @@ export const Copy = styled.div`
     color: #5d5dff;
     cursor: pointer;
   }
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     text-align: center;
   }
 `;
