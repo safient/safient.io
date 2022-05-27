@@ -27,7 +27,7 @@ export const QuestionsContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   border-bottom: ${(isActive) => (isActive ? 'none' : '1px solid #9ba9b4')};
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     padding: 2rem 2rem;
   }
 `;
@@ -35,7 +35,7 @@ export const QuestionsContainer = styled.div`
 export const AnswersContainer = styled.div`
   background: #25282c;
   padding: 0rem 4rem 2rem 4rem;
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     padding: 0rem 2rem 2rem 2rem;
   }
 `;
@@ -47,7 +47,7 @@ export const ItemsContainer = styled.div`
     text-align: center;
     margin-bottom: 4rem;
   }
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     padding: 0 1rem;
 
     h2 {

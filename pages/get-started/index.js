@@ -6,6 +6,7 @@ function WalletPage() {
   return (
     <div>
       <Hero />
+
       <FeatureSection />
     </div>
   );

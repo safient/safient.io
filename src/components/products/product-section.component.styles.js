@@ -4,7 +4,7 @@ export const ProductsContainer = styled.div`
   margin: 10rem 0;
   h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 3.6rem;
   }
   .sub-heading {
     text-align: center;
@@ -12,7 +12,7 @@ export const ProductsContainer = styled.div`
     font-size: 2rem;
     font-weight: 500;
   }
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     margin-top: 12rem;
     h2 {
       line-height: 1.4;
@@ -79,7 +79,7 @@ export const Product = styled.div`
   img {
     width: 50%;
   }
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     img {
       width: 100%;
     }

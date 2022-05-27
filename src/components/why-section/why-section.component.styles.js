@@ -16,7 +16,7 @@ export const SectionContainer = styled.section`
     font-weight: 500;
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     margin: 1rem 0;
     h2 {
       text-align: center;
@@ -39,7 +39,7 @@ export const StyledDiv = styled.div`
 
   img {
     display: block;
-    width: 520px;
+    width: 52rem;
     height: auto;
   }
 
@@ -47,12 +47,10 @@ export const StyledDiv = styled.div`
     flex: 1;
   }
   .graphics {
-    /* flex: 1; */
     align-self: flex-end !important;
-    /* position: relative; */
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     img {
       width: 100%;
     }

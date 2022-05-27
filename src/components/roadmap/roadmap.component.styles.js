@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const RoadMapContainer = styled.section`
   border-radius: 0.5rem;
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     margin: 0 1rem;
   }
 `;
@@ -33,7 +33,7 @@ export const YearContainer = styled.div`
 `;
 
 export const Description = styled.div`
-  max-width: 780px;
+  max-width: 78rem;
 
   h4 {
     color: #d9e3ea;

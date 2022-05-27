@@ -7,6 +7,14 @@ export const HeroContainer = styled.div`
   flex-wrap: wrap;
   gap: 4rem;
   height: 70vh;
+  @media (max-width: 576px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+  }
 `;
 export const CtaContainer = styled.div`
   flex: 1;
@@ -20,6 +28,19 @@ export const CtaContainer = styled.div`
     font-weight: 500;
     line-height: 31px;
     margin-top: 2rem;
+  }
+  @media (max-width: 576px) {
+    padding: 2rem;
+    p,
+    h3 {
+      text-align: center;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.6rem;
+    }
   }
 `;
 
@@ -53,6 +74,7 @@ export const StyledForm = styled.form`
     margin-bottom: 2rem;
     border-radius: 0.4rem;
     font-size: 1.6rem;
+    border: none;
   }
 
   label {
@@ -60,6 +82,13 @@ export const StyledForm = styled.form`
     font-weight: 500;
     color: #9ba9b4;
     margin-bottom: 0.4rem;
+  }
+  @media (max-width: 576px) {
+    padding: 2rem;
+    input {
+      width: 300px;
+      border: none;
+    }
   }
 `;
 
