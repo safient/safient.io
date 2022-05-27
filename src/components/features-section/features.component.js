@@ -19,7 +19,7 @@ const data = [
   },
 ];
 
-export const FeatureSection = () => {
+ const FeatureSection = () => {
   return (
     <FeaturesContainer>
       <h2>We’ve got you covered</h2>
@@ -38,3 +38,4 @@ export const FeatureSection = () => {
     </FeaturesContainer>
   );
 };
+export default FeatureSection

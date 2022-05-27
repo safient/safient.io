@@ -22,14 +22,14 @@ export const Navbar = () => {
             <Link href='/roadmap'>Raoadmap</Link>
           </li>
           <li className={pathname === '/blog' && 'active'}>
-            <a href='https://blog.safient.io' target="_blank">Blog</a>
+            <a href='https://blog.safient.io' target="_blank" rel="noreferrer">Blog</a>
           </li>
           <li className={pathname === '/docs' && 'active'}>
-            <a href='https://docs.safient.io' target="_blank">Docs</a>
+            <a href='https://docs.safient.io' target="_blank" rel="noreferrer">Docs</a>
           </li>
 
           <li className={pathname === '/developers' && 'active'}>
-            <a href='https://code.safient.io' target="_blank">Developers</a>
+            <a href='https://code.safient.io' target="_blank" rel="noreferrer">Developers</a>
           </li>
 
           {/* <li className={pathname === '/app' && 'active'}> */}

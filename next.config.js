@@ -5,6 +5,7 @@ const nextConfig = {
     loader: 'imgix',
     path: 'https://safient.io/',
   },
+  
 }
 
 module.exports = nextConfig
