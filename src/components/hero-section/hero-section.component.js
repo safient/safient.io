@@ -11,7 +11,7 @@ import {
   SubmitContainer,
 } from './hero-section.component.styles';
 
-export const Hero = () => {
+const Hero = () => {  
   const [status, setStatus] = useState('');
   function submitForm(e) {
     e.preventDefault();
@@ -75,3 +75,5 @@ export const Hero = () => {
     </HeroContainer>
   );
 };
+
+export default Hero

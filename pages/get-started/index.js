@@ -1,12 +1,10 @@
-import { Features } from '../../src/components';
-import { FeatureSection } from './features-section/features.component';
-import { Hero } from './hero-section/hero-section.component';
+import FeatureSection from '../../src/components/features-section/features.component';
+import Hero from '../../src/components/hero-section/hero-section.component';
 
 function WalletPage() {
   return (
     <div>
       <Hero />
-
       <FeatureSection />
     </div>
   );
