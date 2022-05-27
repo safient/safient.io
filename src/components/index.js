@@ -4,7 +4,6 @@ export * from './hero/hero.component';
 export * from './common/container/container.component';
 export * from './hackathon-project/projects/hackathon-project.component';
 export * from './skills-section/skills-section.component';
-export * from './experience/experience-section.component';
 export * from './blog-section/blog-section.component';
 export * from './common/footer/footer.component';
 export * from './join-community/join-community.component';

@@ -27,21 +27,6 @@ export const NewsLetterContainer = styled.div`
   p {
     font-size: 2rem;
   }
-  input {
-    /* height: 5rem; */
-    min-width: 30.4rem;
-    border: none;
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    font-size: 1.8rem;
-    background: #4b4acf;
-    color: #fff;
-    &::placeholder {
-      color: #9ba9b4;
-      opacity: 1;
-      font-weight: 200;
-    }
-  }
 
   button {
     padding: 1.5rem 2.5rem;
@@ -78,12 +63,9 @@ export const JoinCommunity = () => {
       <NewsLetterContainer>
         <div>
           <h3>Stay in the loop</h3>
-          <p>Join our newletter to get top news before anyone else</p>
+          <p>Join our Discord server to stay on top of our developments</p>
         </div>
-        <div>
-          <input type='email' placeholder='Enter your email' />
-          <button>Subscribe</button>
-        </div>
+          <button onClick={() => window.open('https://discord.safient.io/')}>Join Now</button>
       </NewsLetterContainer>
     </JoinContainer>
   );

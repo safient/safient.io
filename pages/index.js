@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Safient Safes</title>
+        <title>Safient- Non-custodial secret Recovery and Inheritance Protocol</title>
         <meta name='description' content='Portfolio 2.0' />
         <link rel='icon' href='/favicon.ico' />
         <link
@@ -37,8 +37,9 @@ export default function Home() {
 
       <DeveloperResources />
       {/* <RoadMap /> */}
+      
+      <Faq />
       <JoinCommunity />
-      {/* <Faq /> */}
     </div>
   );
 }

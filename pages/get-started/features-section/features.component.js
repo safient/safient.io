@@ -2,17 +2,17 @@ import { FeatureCard, FeaturesContainer, CardsContainer, IconContainer } from '.
 
 const data = [
   {
-    icon: '/icons/encrypted.svg',
+    icon: '/icons/key.svg',
     heading: 'Non-Custodial',
     description: 'We never have access to any of your data or funds. Ever.',
   },
   {
-    icon: '/icons/api.svg',
+    icon: '/icons/check.svg',
     heading: 'Convenient Inheritance',
     description: 'Ensure that your safes are inherited by beneficiaries only incase of tragic events.',
   },
   {
-    icon: '/icons/confidential.svg',
+    icon: '/icons/decentralized.svg',
     heading: 'Trustless Protocol',
     description:
       'The safes are protected and governed by trustless guardians to ensure the highest degree of resilience.',

@@ -16,7 +16,7 @@ export const WhySection = () => {
           <p>
             Worry no more, Safient protocol will help you securely manage all the critical information in a
             non-custodial way and help recover or inherit the assets so that your loved ones have access to them with{' '}
-            <Span> 100 % surety </Span> incase of any tragic event.
+            <Span> 100 % surety </Span> at the right time, even incase of any tragic event.
           </p>
         </div>
 

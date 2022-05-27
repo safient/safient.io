@@ -13,7 +13,7 @@ export const TechStack = () => {
 
       <TechContainer>
         <LogoContainer>
-          <img src='./images/tech-icons.svg' alt='' />
+          <img src='./images/tech-icons.png' alt='' />
         </LogoContainer>
         <DescriptionContainer>
           <StyledDiv>
@@ -22,7 +22,7 @@ export const TechStack = () => {
           </StyledDiv>
           <StyledDiv>
             <h3>Textile ThreadDB</h3>
-            <p>Helps to store all the public metadata on a p2p database.</p>
+            <p>Store all the public, verifiable metadata on a p2p database.</p>
           </StyledDiv>
           <StyledDiv>
             <h3>Ceramic IDX</h3>

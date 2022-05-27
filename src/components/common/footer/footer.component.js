@@ -41,12 +41,12 @@ export const Footer = () => {
             <h3>Contact Us</h3>
             <ul>
               <li>
-                <a href='https://www.consensolabs.com/contact' target='_next'>
+                <a href='mailto:hello@safient.io' target='_next'>
                   Contact
                 </a>
               </li>
               <li>
-                <a href='https://angel.co/company/consensolabs/jobs' target='_next'>
+                <a href='https://careers.safient.io' target='_next'>
                   Career
                 </a>
               </li>
@@ -75,7 +75,7 @@ export const Footer = () => {
         </Navs>
         <Copy>
           <div>
-            <a href='https://github.com/safientio' target='_next'>
+            <a href='https://consensolabs.com' target='_next'>
               <p> &copy; {new Date().getFullYear()} Crafted with ❣️ by Consenso Labs.</p>
             </a>
           </div>

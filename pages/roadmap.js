@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Container, Faq, RoadMap } from '../src/components';
 
-const About = () => {
+const RoadMapPage = () => {
   return (
     <Container>
       <RoadMap />
@@ -10,4 +10,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default RoadMapPage;

@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import { Container } from '../common/container/container.component';
+import Link from 'next/link';
 import { ButtonContainer, GhostButton, HeroContainer, StyledDiv } from './hero.component.styles';
 import { Button } from '../button/button';
 import { Span } from '../span/span.component';
@@ -15,8 +14,10 @@ export const Hero = () => {
           assets without intermediaries.
         </p>
         <ButtonContainer>
-          <Button onClick={() => window.open('https://try.safient.io/')}>Try Now</Button>
-          <GhostButton onClick={() => console.log('dhjddh')}>Read More</GhostButton>
+        <Link href='/get-started'>
+          <Button>Get Started</Button>
+          </Link>
+          <GhostButton onClick={() => window.open('https://resources.safient.io/')}>Learn More</GhostButton>
         </ButtonContainer>
       </div>
       {/* <div>

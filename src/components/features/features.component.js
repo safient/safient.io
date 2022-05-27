@@ -2,27 +2,27 @@ import { FeatureCard, FeaturesContainer, CardsContainer, IconContainer } from '.
 
 const data = [
   {
-    icon: '/icons/encrypted.svg',
+    icon: '/icons/key.svg',
     heading: 'Secure Safes',
-    description: 'Backup your secrets on our Safient safe that can only be recovered by you at any time.',
+    description: 'Backup your secrets on Safes that are secured by robust cryptography techniques and data stores.',
   },
   {
-    icon: '/icons/api.svg',
-    heading: 'Convenient Inheritance',
-    description: 'Ensure that your safes are inherited by beneficiaries only incase of tragic events.',
+    icon: '/icons/check.svg',
+    heading: 'Convenient Claimable Safes',
+    description: 'The safes are recovered by the beneficiaries only after the pre-specified claim conditions are met.',
   },
   {
-    icon: '/icons/confidential.svg',
+    icon: '/icons/decentralized.svg',
     heading: 'Trustless Protocol',
     description:
-      'The safes are protected and governed by trustless guardians and arbitrators (Using Kleros) to ensure the highest degree of resilience.',
+      'Safes are guarded by trustless guardians and arbitrators to ensure the highest degree of resilience',
   },
 ];
 
 export const Features = () => {
   return (
     <FeaturesContainer>
-      <h2>What makes Safient Protocol Special?</h2>
+      <h2>What makes Safient special?</h2>
       <CardsContainer>
         {data.map(({ icon, heading, description }, index) => (
           <FeatureCard key={index}>

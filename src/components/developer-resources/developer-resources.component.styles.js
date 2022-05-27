@@ -6,6 +6,12 @@ export const FeaturesContainer = styled.div`
     text-align: center;
     font-size: 36px;
   }
+  .sub-heading {
+    text-align: center;
+    margin-bottom: 6rem;
+    font-size: 2rem;
+    font-weight: 500;
+  }
   @media (max-width: 576px) {
     margin-top: 12rem;
     h2 {
@@ -66,3 +72,4 @@ export const IconContainer = styled.div`
     padding: 2rem;
   }
 `;
+

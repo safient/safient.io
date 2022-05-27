@@ -14,7 +14,7 @@ const data = [
     heading: 'Individuals',
     description:
       'We are working on a variety of non custodial crypto assets recovery and inheritance services on top of Safient protocol such as Safient Wallet and Safient Safes.',
-    linkText: 'checkout Safient Wallet',
+    linkText: 'Checkout Safient Wallet',
     link: 'https://wallet.safient.io/gm',
   },
   {
@@ -31,6 +31,7 @@ export const DeveloperResources = () => {
   return (
     <FeaturesContainer>
       <h2>Safient Resources</h2>
+      <p className='sub-heading'>Safient is for everyone. May it be end users, 3rd party tools and services or institutions. Checkout the resources or reachout to us. </p>
       <CardsContainer>
         {data.map(({ icon, heading, description, linkText, link }, index) => (
           <FeatureCard key={index}>
