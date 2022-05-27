@@ -4,9 +4,15 @@ export const FeaturesContainer = styled.div`
   margin: 10rem 0;
   h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 3.6rem;
   }
-  @media (max-width: 576px) {
+  .sub-heading {
+    text-align: center;
+    margin-bottom: 6rem;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  @media (max-width: 57.6rem) {
     margin-top: 12rem;
     h2 {
       line-height: 1.4;
@@ -19,11 +25,10 @@ export const FeatureCard = styled.div`
   padding: 4rem;
   flex: 0 0 38.4rem;
   transition: box-shadow 0.3s;
-  border-radius: 0.5rem;
+
   &:hover {
     cursor: pointer;
     box-shadow: 0 0 11px #5d5dff;
-
     border-image-source: linear-gradient(43deg, #e85602 0, #f5b46c 29%, #d9caf4 68%);
   }
   @media (max-width: 57.6rem) {
@@ -39,13 +44,15 @@ export const CardsContainer = styled.div`
 
   h4 {
     margin-top: 2rem;
-    color: #fff;
+    color: #d9e3ea;
   }
 
   p {
     margin-top: 1rem;
     line-height: 1.9;
-    color: #d9e3ea;
+  }
+  .linkText {
+    color: #5d5dff;
   }
   @media (max-width: 57.6rem) {
     justify-content: center;
@@ -53,8 +60,6 @@ export const CardsContainer = styled.div`
 `;
 
 export const IconContainer = styled.div`
-  background: #5d5dff;
-
   background: linear-gradient(90deg, transparent, transparent),
     linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%);
   display: inline-flex;
@@ -63,3 +68,4 @@ export const IconContainer = styled.div`
     padding: 2rem;
   }
 `;
+

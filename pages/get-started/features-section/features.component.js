@@ -3,26 +3,27 @@ import { FeatureCard, FeaturesContainer, CardsContainer, IconContainer } from '.
 const data = [
   {
     icon: '/icons/key.svg',
-    heading: 'Secure Safes',
-    description: 'Backup your secrets on Safes that are secured by robust cryptography techniques and data stores.',
+    heading: 'Non-Custodial',
+    description: 'We never have access to any of your data or funds. Ever.',
   },
   {
     icon: '/icons/check.svg',
-    heading: 'Convenient Claimable Safes',
-    description: 'The safes are recovered by the beneficiaries only after the pre-specified claim conditions are met.',
+    heading: 'Convenient Inheritance',
+    description: 'Ensure that your safes are inherited by beneficiaries only incase of tragic events.',
   },
   {
     icon: '/icons/decentralized.svg',
     heading: 'Trustless Protocol',
     description:
-      'Safes are guarded by trustless guardians and arbitrators to ensure the highest degree of resilience',
+      'The safes are protected and governed by trustless guardians to ensure the highest degree of resilience.',
   },
 ];
 
-export const Features = () => {
+export const FeatureSection = () => {
   return (
     <FeaturesContainer>
-      <h2>What makes Safient special?</h2>
+      <h2>We’ve got you covered</h2>
+      <p className='sub-heading'>Safient Wallet has everything you need to traverse the Web3 ecosystem</p>
       <CardsContainer>
         {data.map(({ icon, heading, description }, index) => (
           <FeatureCard key={index}>

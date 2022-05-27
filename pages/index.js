@@ -1,11 +1,20 @@
 import Head from 'next/head';
-import { Faq, Features, Hero, HowItWorks, JoinCommunity, RoadMap, WhySection, TechStack } from '../src/components';
+import {
+  Features,
+  Faq,
+  Hero,
+  JoinCommunity,
+  WhySection,
+  TechStack,
+  DeveloperResources,
+  ProductSection,
+} from '../src/components';
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Safient Safes</title>
+        <title>Safient- Non-custodial secret Recovery and Inheritance Protocol</title>
         <meta name='description' content='Portfolio 2.0' />
         <link rel='icon' href='/favicon.ico' />
         <link
@@ -16,16 +25,14 @@ export default function Home() {
           referrerpolicy='no-referrer'
         />
       </Head>
-
       <Hero />
-      <Features />
       <WhySection />
-      <HowItWorks />
+      <Features />
+      <ProductSection />
       <TechStack />
-
-      <RoadMap />
-      <JoinCommunity />
+      <DeveloperResources />
       <Faq />
+      <JoinCommunity />
     </div>
   );
 }

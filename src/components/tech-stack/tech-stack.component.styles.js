@@ -4,6 +4,7 @@ export const TeckStackContainer = styled.section`
   margin: 8rem 0 8rem 0;
   h2 {
     text-align: center;
+    font-size: 36px;
   }
 `;
 
@@ -15,10 +16,10 @@ export const TechContainer = styled.div`
   flex-wrap: wrap;
 
   img {
-    width: 540px;
+    width: 54rem;
     height: auto;
   }
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     flex-direction: column;
     padding: 0 1rem;
     img {
@@ -34,7 +35,7 @@ export const LogoContainer = styled.div`
 export const DescriptionContainer = styled.div`
   flex: 2;
   align-self: center;
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     margin-top: -8rem;
   }
 `;

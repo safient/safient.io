@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
-  height: 8rem;
+  height: 9rem;
   padding: 2rem;
   position: sticky;
   top: 0;
@@ -10,7 +10,7 @@ export const HeaderContainer = styled.header`
 `;
 
 export const NavbarContainer = styled.nav`
-  max-width: 1400px;
+  max-width: 140rem;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -30,13 +30,11 @@ export const NavbarContainer = styled.nav`
     justify-content: center;
     gap: 2rem;
     color: #d9e3ea;
-    @media (max-width: 576px) {
+    @media (max-width: 57.6rem) {
       display: none;
     }
   }
-  li {
-    /* font-size: 1.8rem; */
-  }
+
   li:hover {
     color: #5d5dff;
     cursor: pointer;
@@ -55,7 +53,7 @@ export const NavbarContainer = styled.nav`
   .hamburger {
     display: none;
   }
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     display: flex;
     align-items: flex-start;
 
@@ -76,7 +74,13 @@ export const NavbarContainer = styled.nav`
 `;
 
 export const MobileMenuContainer = styled.div`
-  width: 100% !important;
-  position: absolute;
-  right: 1000%;
+  width: 100%;
+
+  padding: 4rem;
+  background: #1d1f22;
+
+  ul {
+    display: inline-block;
+    width: 100%;
+  }
 `;

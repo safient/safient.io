@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const JoinContainer = styled.section`
   position: relative;
   background: #5d5dff;
+
   color: #fff;
 `;
 export const BlobContainer = styled.div`
@@ -12,7 +13,7 @@ export const BlobContainer = styled.div`
 `;
 
 export const NewsLetterContainer = styled.div`
-  padding: 64px 70px;
+  padding: 6.4rem 7rem;
 
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +28,6 @@ export const NewsLetterContainer = styled.div`
     font-size: 2rem;
   }
   input {
-    /* height: 5rem; */
     min-width: 30.4rem;
     border: none;
     border-radius: 0.5rem;
@@ -54,7 +54,7 @@ export const NewsLetterContainer = styled.div`
     z-index: 10;
   }
 
-  @media (max-width: 576px) {
+  @media (max-width: 57.6rem) {
     padding: 1rem;
     button {
       width: 100%;
@@ -77,12 +77,9 @@ export const JoinCommunity = () => {
       <NewsLetterContainer>
         <div>
           <h3>Stay in the loop</h3>
-          <p>Join our newletter to get top news before anyone else</p>
+          <p>Join our Discord server to stay on top of our developments</p>
         </div>
-        <div>
-          <input type='email' placeholder='Enter your email' />
-          <button>Subscribe</button>
-        </div>
+          <button onClick={() => window.open('https://discord.safient.io/')}>Join Now</button>
       </NewsLetterContainer>
     </JoinContainer>
   );

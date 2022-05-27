@@ -8,6 +8,7 @@ export const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
 
   const { pathname } = useRouter();
+  console.log(pathname)
 
   return (
     <HeaderContainer>
@@ -17,21 +18,25 @@ export const Navbar = () => {
           <img src='logo.svg' alt=''/>
         </Link>
         <ul>
+          <li className={pathname === '/about' && 'active'}>
+            <Link href='/roadmap'>Raoadmap</Link>
+          </li>
           <li className={pathname === '/blog' && 'active'}>
-            <Link href='https://blog.safient.io'>Blog</Link>
+            <a href='https://blog.safient.io' target="_blank">Blog</a>
           </li>
           <li className={pathname === '/docs' && 'active'}>
-            <Link href='https://docs.safient.io'>Docs</Link>
+            <a href='https://docs.safient.io' target="_blank">Docs</a>
           </li>
 
           <li className={pathname === '/developers' && 'active'}>
-            <Link href='https://docs.safient.io/dev-overview'>Developers</Link>
+            <a href='https://code.safient.io' target="_blank">Developers</a>
           </li>
-          <li className={pathname === '/app' && 'active'}>
-            <a href='https://try.safient.io'>
-              <Button>App</Button>
-            </a>
-          </li>
+
+          {/* <li className={pathname === '/app' && 'active'}> */}
+            <Link href='/get-started'>
+              <Button>Try Now</Button>
+            </Link>
+          {/* </li> */}
         </ul>
         {/* mobile nav */}
         <div className='hamburger'>
@@ -40,7 +45,10 @@ export const Navbar = () => {
           </div>
           {isActive && (
             <MobileMenuContainer>
-              <ul>
+              <ul onClick={() => setIsActive(!isActive)}>
+                <li className={pathname === '/about' && 'active'}>
+                  <Link href='/about'>About Us</Link>
+                </li>
                 <li className={pathname === '/blog' && 'active'}>
                   <Link href='https://blog.safient.io'>Blog</Link>
                 </li>
@@ -51,6 +59,7 @@ export const Navbar = () => {
                 <li className={pathname === '/developers' && 'active'}>
                   <Link href='https://docs.safient.io/dev-overview'>Developers</Link>
                 </li>
+
                 <li className={pathname === '/app' && 'active'}>
                   <Link href='https://try.safient.io'>
                     <Button>App</Button>
