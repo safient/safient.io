@@ -77,7 +77,7 @@ export const Footer = () => {
           <div>
             <a href='https://consensolabs.com' target='_next'>
               <p> &copy; {new Date().getFullYear()} Crafted with ❣️ by Consenso Labs.</p>
-            </a>
+              </a>
           </div>
         </Copy>
       </Container>

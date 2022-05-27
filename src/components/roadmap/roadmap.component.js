@@ -50,7 +50,7 @@ export const RoadMap = () => {
             href='https://filecoin.io/blog/posts/249k-for-17-projects-from-dorahacks-filecoin-grant-hackathon/'
             target='_next'
           >
-            DoraHack's Filecoin Grant program.
+            DoraHack&apos;s Filecoin Grant program.
           </a>{' '}
         </strong>
       </TimeFrame>

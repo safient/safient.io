@@ -11,7 +11,7 @@ export const HeroContainer = styled.section`
   margin: 28rem auto;
 
   .hero-image {
-    width: 100rem;
+    width: 70rem;
     margin-top: 8rem;
   }
 
