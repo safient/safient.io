@@ -33,7 +33,7 @@ export const ProductSection = () => {
               assets without intermediaries.
             </p>
 
-            <TryNowButton onClick={() => router.push('/get-started')}>Know More</TryNowButton>
+            <TryNowButton onClick={() => router.push('/safes')}>Know More</TryNowButton>
           </div>
         </Product>
       </StyledDiv>

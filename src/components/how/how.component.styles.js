@@ -40,7 +40,7 @@ export const PreviewContainer = styled.div`
   width: 100%;
   padding: 4rem;
   h4 {
-    color: #5d5dff;
+    // color: #5d5dff;
     margin-bottom: 5rem;
     text-align: center;
     font-size: 1.8rem;
@@ -75,8 +75,8 @@ export const StyledDiv = styled.div`
   background: #25282c;
   border-radius: 0.5rem;
   margin-top: 2rem;
-  h4 {
-    color: #5d5dff;
+  h3 {
+    // color: #5d5dff;
     margin-bottom: 1rem;
   }
 

@@ -1,11 +1,11 @@
-import FeatureSection from '../../src/components/features-section/features.component';
-import Hero from '../../src/components/hero-section/hero-section.component';
+import BuildSection from '../../src/components/build-section/build.component';
+import GuardianEarlyAccess from '../../src/components/guardian-early-access/guardian-early-access.component';
 
 function WalletPage() {
   return (
     <div>
-      <Hero />
-      <FeatureSection />
+      <BuildSection />
+      <GuardianEarlyAccess />
     </div>
   );
 }

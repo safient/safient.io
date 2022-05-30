@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button } from '../../../src/components/button/button';
+import { Span } from '../span/span.component';
 import {
   HeroContainer,
   FormContainer,
@@ -9,9 +9,9 @@ import {
   StyledForm,
   FormGroup,
   SubmitContainer,
-} from './hero-section.component.styles';
+} from './guardian-early-access.component.styles';
 
-const Hero = () => {  
+const GuardianEarlyAccess = () => {  
   const [status, setStatus] = useState('');
   function submitForm(e) {
     e.preventDefault();
@@ -34,16 +34,15 @@ const Hero = () => {
   return (
     <HeroContainer>
       <CtaContainer>
-        <h3>A Non-Custodial Recoverable and Inheritable wallet application built on Safient Protocol</h3>
+        <h3>Be a part of <Span>Safient Network </Span> 🤝</h3>
         <p>
-          We are working on it. In the meantime, you can subscribe here to get early access and join us on Twitter and
-          Discord for updates.
+          We are onboarding early guardians to our testnet version of the <Span>Safient protocol</Span>. If you are interested to be part of our network, please submit your info so that we can reach out to you.
         </p>
       </CtaContainer>
       <FormContainer>
         <StyledDiv>
           <StyledForm onSubmit={submitForm} action='https://formspree.io/f/mgerkpko' method='POST'>
-            <h4>Sign up for updates</h4>
+            <h4>Become an early Guardian 🛡️</h4>
             {/* start */}
 
             {status === 'SUCCESS' ? (
@@ -51,17 +50,17 @@ const Hero = () => {
             ) : (
               <>
                 <FormGroup>
-                  <label htmlFor='name'>First Name</label>
-                  <input type='text' id='firstName' name='firstName' placeholder='John Doe' />
+                  <label htmlFor='name'>Full Name</label>
+                  <input type='text' id='firstName' name='firstName' placeholder='Safien' />
                 </FormGroup>
 
                 <FormGroup>
                   <label htmlFor='email'>Email</label>
-                  <input type='email' name='email' id='email' placeholder='johndoe@example.org' />
+                  <input type='email' name='email' id='email' placeholder='safien@safient.io' />
                 </FormGroup>
 
                 <SubmitContainer>
-                  <button type='submit'>Notify Me</button>
+                  <button type='submit'>Let's Go 🚀</button>
                 </SubmitContainer>
 
                 {status === 'ERROR' && <p className='text-primary-yellow'>Ooops! There was an error.</p>}
@@ -76,4 +75,4 @@ const Hero = () => {
   );
 };
 
-export default Hero
+export default GuardianEarlyAccess
