@@ -15,7 +15,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Safient- Non-custodial secret Recovery and Inheritance Protocol</title>
-        <meta name='description' content='Portfolio 2.0' />
+        <meta name='description' content='Safient Protocol official website' />
         <link rel='icon' href='/favicon.ico' />
         <link
           rel='stylesheet'

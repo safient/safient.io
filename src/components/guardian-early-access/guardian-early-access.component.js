@@ -60,7 +60,7 @@ const GuardianEarlyAccess = () => {
                 </FormGroup>
 
                 <SubmitContainer>
-                  <button type='submit'>Let's Go 🚀</button>
+                  <button type='submit'>Let&apos;s Go 🚀</button>
                 </SubmitContainer>
 
                 {status === 'ERROR' && <p className='text-primary-yellow'>Ooops! There was an error.</p>}
