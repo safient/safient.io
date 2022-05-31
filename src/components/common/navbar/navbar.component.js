@@ -19,7 +19,7 @@ export const Navbar = () => {
         </Link>
         <ul>
           <li className={pathname === '/about' && 'active'}>
-            <Link href='/roadmap'>Raoadmap</Link>
+            <Link href='/roadmap'>Roadmap</Link>
           </li>
           <li className={pathname === '/blog' && 'active'}>
             <a href='https://blog.safient.io' target="_blank" rel="noreferrer">Blog</a>
