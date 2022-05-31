@@ -6,6 +6,18 @@ export const Hero = () => {
   return (
     <HeroContainer>
       <div>
+        <div className='blob-center'>
+          <img src='/images/hero/blob-03.svg' alt='' />
+        </div>
+        <div className='blob-right'>
+          <img src='/images/hero/blob-01.svg' alt='' width='90px' />
+        </div>
+        <div className='blob-left'>
+          <img src='/images/hero/blob-02.svg' alt='' width='210px' />
+        </div>
+        <div className='blob-bottom'>
+          <img src='/images/hero/blob-04.svg' alt='' width='100px' />
+        </div>
         <h2>
           Non-custodial secret <Span>Recovery</Span> and <Span>Inheritance</Span> Protocol
         </h2>

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Button } from '../button/button';
 
 export const HeroContainer = styled.section`
   height: 100%;
@@ -10,17 +9,18 @@ export const HeroContainer = styled.section`
   flex-wrap: wrap;
   margin: 28rem auto;
   position: relative;
+
   .hero-image {
     width: 70rem;
     margin-top: 8rem;
   }
 
   .sub-heading {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-weight: 500;
     line-height: 1.4;
     text-align: center;
-    width: 60%;
+    width: 70%;
     margin: 2rem auto;
   }
   p {
@@ -29,48 +29,34 @@ export const HeroContainer = styled.section`
 
   h2 {
     text-align: center;
-    font-size: 60px;
+    font-size: 5.4rem;
     line-height: 1.1;
   }
 
-  .right {
-    position: relative;
-    top: -20rem;
-    right: -80rem;
-  }
-
-  /* exp */
-  /* .background-image-holder {
+  .blob-center {
     position: absolute;
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: -15em;
-    z-index: 0;
-    overflow: hidden;
+    top: 60%;
+    left: -50%;
+    transform: rotate(-180deg);
+    z-index: -10;
   }
-  .background-gradient {
+  .blob-right {
     position: absolute;
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-    z-index: 2;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(5%, #171e2e), to(transparent));
+    z-index: -10;
+    top: -70%;
+    right: 30%;
   }
-
-  .background-image {
+  .blob-left {
     position: absolute;
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
-  } */
-
-  .left {
-    position: relative;
-    top: 20rem;
-    right: 80rem;
+    z-index: -10;
+    top: -100%;
+  }
+  .blob-bottom {
+    position: absolute;
+    z-index: -10;
+    left: 100%;
+    top: 60%;
+    bottom: 10%;
   }
   @media (max-width: 57.6rem) {
     .hero-image {
@@ -84,18 +70,23 @@ export const HeroContainer = styled.section`
       width: 90%;
       font-size: 2rem;
     }
+    .blob-center,
+    .blob-right,
+    .blob-center,
+    .blob-left,
+    .blob-bottom {
+      display: none;
+    }
     margin-top: 9rem;
   }
 `;
-
-export const StyledDiv = styled.div``;
 
 export const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  margin: 2.4rem 0;
+  margin: 3.8rem 0;
 `;
 
 export const GhostButton = styled.button`
