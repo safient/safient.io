@@ -26,7 +26,7 @@ export const CtaContainer = styled.div`
   p {
     font-size: 2.2rem;
     font-weight: 500;
-    line-height: 31px;
+    line-height: 36px;
     margin-top: 2rem;
   }
   @media (max-width: 576px) {
@@ -36,10 +36,10 @@ export const CtaContainer = styled.div`
       text-align: center;
     }
     h3 {
-      font-size: 2rem;
+      font-size: 2.2rem;
     }
     p {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
     }
   }
 `;
@@ -54,6 +54,10 @@ export const StyledDiv = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
+  @media (max-width: 576px) {
+    align-items: center;
+    justify-content: flex-end;
+  }
 `;
 
 export const StyledForm = styled.form`

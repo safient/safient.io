@@ -1,0 +1,26 @@
+  <svg
+        className='right'
+        width='45'
+        height='50'
+        viewBox='0 0 230 209'
+        fill='none'
+        xmlns='http://www.w3.org/2000/svg'
+      >
+        <path
+          d='M87.7343 15.8838L4.26794 160.861C-7.97379 182.132 7.6066 209 32.0901 209H150.612H166.193H181.773H197.91C222.393 209 237.974 182.132 225.732 160.861L217.942 146.307L210.152 132.873L176.765 74.6583L143.379 16.4435C130.58 -5.38698 99.9761 -5.38698 87.7343 15.8838ZM202.361 119.439L199.579 114.961L202.361 119.439Z'
+          fill='url(#paint06)'
+        ></path>
+        <defs>
+          <linearGradient
+            id='paint06'
+            x1='93.4375'
+            y1='60.6473'
+            x2='37.2039'
+            y2='154.832'
+            gradientUnits='userSpaceOnUse'
+          >
+            <stop stop-color='#26F3A8'></stop>
+            <stop offset='1' stop-color='#3376E7'></stop>
+          </linearGradient>
+        </defs>
+      </svg>

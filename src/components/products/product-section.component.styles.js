@@ -15,7 +15,11 @@ export const ProductsContainer = styled.div`
   @media (max-width: 57.6rem) {
     margin-top: 12rem;
     h2 {
-      line-height: 1.4;
+      text-align: center;
+      font-size: 2.2rem;
+    }
+    p {
+      font-size: 1.8rem;
     }
   }
 `;
@@ -44,10 +48,13 @@ export const BlobContainer = styled.div`
   position: absolute;
   right: 0;
   z-index: 1;
+  @media (max-width: 57.6rem) {
+    display: none;
+  }
 `;
 
 export const Product = styled.div`
-  padding: ${({ inverted }) => (inverted ? '4rem 4rem 4rem 4rem ' : '4rem 0rem 0 4rem')};
+  padding: ${({ inverted }) => (inverted ? '4rem 4rem 4rem 4rem ' : '0 4rem')};
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -67,7 +74,7 @@ export const Product = styled.div`
   .product-subHeading {
     line-height: 1.6;
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 500;
     margin: 2rem auto;
   }
 
@@ -90,9 +97,15 @@ export const Product = styled.div`
 
     .product-heading {
       text-align: center;
+      font-size: 2.4rem;
     }
     .product-subHeading {
       text-align: center;
+      font-size: 1.8rem;
+    }
+
+    .mobile {
+      margin-left: 2rem;
     }
   }
 `;

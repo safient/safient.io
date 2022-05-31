@@ -39,7 +39,8 @@ export const CtaContainer = styled.div`
       font-size: 2rem;
     }
     p {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
+      font-weight: 500;
     }
   }
 `;
@@ -54,6 +55,11 @@ export const StyledDiv = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
+
+  @media (max-width: 576px) {
+    align-items: center;
+    justify-content: flex-end;
+  }
 `;
 
 export const StyledForm = styled.form`

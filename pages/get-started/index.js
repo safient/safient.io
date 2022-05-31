@@ -3,10 +3,10 @@ import GuardianEarlyAccess from '../../src/components/guardian-early-access/guar
 
 function WalletPage() {
   return (
-    <div>
+    <>
       <BuildSection />
       <GuardianEarlyAccess />
-    </div>
+    </>
   );
 }
 

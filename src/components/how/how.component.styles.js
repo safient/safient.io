@@ -6,13 +6,30 @@ export const SectionContainer = styled.section`
   align-items: center;
   justify-content: space-between;
 
-  h2,
+  h2 {
+    text-align: center;
+  }
   p {
     text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
   }
 
   @media (max-width: 57.6rem) {
     padding: 0 1rem;
+  }
+
+  @media (max-width: 576px) {
+    /* margin-top: 12rem; */
+    h2 {
+      text-align: center;
+      font-size: 2.2rem;
+    }
+    p {
+      font-size: 1.8rem;
+      line-height: 32px;
+      font-weight: 500;
+    }
   }
 `;
 
@@ -28,6 +45,10 @@ export const DescriptionContainer = styled.div`
   p {
     text-align: left;
   }
+
+  @media (max-width: 57.6rem) {
+    order: 1;
+  }
 `;
 
 export const PreviewContainer = styled.div`
@@ -39,6 +60,7 @@ export const PreviewContainer = styled.div`
   margin-top: 2rem;
   width: 100%;
   padding: 4rem;
+  order: 2;
   h4 {
     // color: #5d5dff;
     margin-bottom: 5rem;
@@ -60,6 +82,7 @@ export const PreviewContainer = styled.div`
   }
 
   @media (max-width: 57.6rem) {
+    order: 2;
     img {
       max-inline-size: 100%;
       block-size: auto;
@@ -76,7 +99,7 @@ export const StyledDiv = styled.div`
   border-radius: 0.5rem;
   margin-top: 2rem;
   h3 {
-    // color: #5d5dff;
+    color: #d9e3ea;
     margin-bottom: 1rem;
   }
 

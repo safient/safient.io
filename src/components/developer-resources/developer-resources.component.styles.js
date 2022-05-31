@@ -12,10 +12,14 @@ export const FeaturesContainer = styled.div`
     font-size: 2rem;
     font-weight: 500;
   }
+
   @media (max-width: 57.6rem) {
-    margin-top: 12rem;
     h2 {
-      line-height: 1.4;
+      text-align: center;
+      font-size: 2.2rem;
+    }
+    .sub-heading {
+      font-size: 1.8rem;
     }
   }
 `;
@@ -45,11 +49,13 @@ export const CardsContainer = styled.div`
   h4 {
     margin-top: 2rem;
     color: #d9e3ea;
+    font-size: 2rem;
   }
 
   p {
     margin-top: 1rem;
     line-height: 1.9;
+    font-weight: 500;
   }
   .linkText {
     color: #5d5dff;
@@ -68,4 +74,3 @@ export const IconContainer = styled.div`
     padding: 2rem;
   }
 `;
-

@@ -12,7 +12,7 @@ import {
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Safient- Non-custodial secret Recovery and Inheritance Protocol</title>
         <meta name='description' content='Safient Protocol official website' />
@@ -33,6 +33,6 @@ export default function Home() {
       <DeveloperResources />
       <Faq />
       <JoinCommunity />
-    </div>
+    </>
   );
 }

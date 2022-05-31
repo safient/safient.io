@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import styled, { createGlobalStyle } from 'styled-components';
 import { Container, Footer, Navbar } from '../src/components';
+import { useState } from 'react';
 
 const GlobalStyles = createGlobalStyle`
 
@@ -50,11 +51,13 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 function MyApp({ Component, pageProps }) {
+  const [isActive, setIsActive] = useState(false);
+
   return (
     <>
       <GlobalStyles />
-      <Navbar />
-      <Container>
+      <Navbar isActive={isActive} setIsActive={setIsActive} />
+      <Container onClick={() => setIsActive(!isActive)}>
         <Component {...pageProps} />
       </Container>
       <Footer />

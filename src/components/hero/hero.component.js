@@ -14,8 +14,8 @@ export const Hero = () => {
           assets without intermediaries.
         </p>
         <ButtonContainer>
-        <Link href='/get-started'>
-          <Button>Get Started</Button>
+          <Link href='/get-started'>
+            <Button>Get Started</Button>
           </Link>
           <GhostButton onClick={() => window.open('https://resources.safient.io/')}>Learn More</GhostButton>
         </ButtonContainer>

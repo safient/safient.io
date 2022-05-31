@@ -2,17 +2,25 @@ import styled from 'styled-components';
 
 export const FeaturesContainer = styled.div`
   margin: 10rem 0;
+
   .sub-heading {
     text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
   }
   h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.7rem;
   }
+
   @media (max-width: 576px) {
-    margin-top: 12rem;
+    margin-top: 2rem;
     h2 {
-      line-height: 1.4;
+      text-align: center;
+      font-size: 2.2rem;
+    }
+    p {
+      font-size: 1.8rem;
     }
   }
 `;
@@ -51,12 +59,14 @@ export const CardsContainer = styled.div`
   h4 {
     margin-top: 2rem;
     color: #fff;
+    font-size: 2rem;
   }
 
   p {
     margin-top: 1rem;
     line-height: 1.9;
-    color: #d9e3ea;
+    color: #9ba9b4;
+    font-weight: 500;
   }
   @media (max-width: 576px) {
     justify-content: center;

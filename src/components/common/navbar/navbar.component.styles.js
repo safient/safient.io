@@ -14,6 +14,7 @@ export const NavbarContainer = styled.nav`
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  /* background: #151719; */
   img {
     width: 110px;
     height: auto;
@@ -30,6 +31,7 @@ export const NavbarContainer = styled.nav`
     justify-content: center;
     gap: 2rem;
     color: #d9e3ea;
+
     @media (max-width: 57.6rem) {
       display: none;
     }
@@ -75,7 +77,6 @@ export const NavbarContainer = styled.nav`
 
 export const MobileMenuContainer = styled.div`
   width: 100%;
-
   padding: 4rem;
   background: #1d1f22;
 

@@ -11,7 +11,7 @@ import {
   SubmitContainer,
 } from './guardian-early-access.component.styles';
 
-const GuardianEarlyAccess = () => {  
+const GuardianEarlyAccess = () => {
   const [status, setStatus] = useState('');
   function submitForm(e) {
     e.preventDefault();
@@ -34,9 +34,12 @@ const GuardianEarlyAccess = () => {
   return (
     <HeroContainer>
       <CtaContainer>
-        <h3>Be a part of <Span>Safient Network </Span> 🤝</h3>
+        <h3>
+          Be a part of <Span>Safient Network </Span> 🤝
+        </h3>
         <p>
-          We are onboarding early guardians to our testnet version of the <Span>Safient protocol</Span>. If you are interested to be part of our network, please submit your info so that we can reach out to you.
+          We are onboarding early guardians to our testnet version of the <Span>Safient protocol</Span>. If you are
+          interested to be part of our network, please submit your info so that we can reach out to you.
         </p>
       </CtaContainer>
       <FormContainer>
@@ -75,4 +78,4 @@ const GuardianEarlyAccess = () => {
   );
 };
 
-export default GuardianEarlyAccess
+export default GuardianEarlyAccess;

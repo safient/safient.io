@@ -1,34 +1,31 @@
 import styled from 'styled-components';
 
-export const FeaturesContainer = styled.div`
-  margin: 10rem 0;
+export const BuildContainer = styled.div`
+  margin: 10rem 0 2rem 0;
   .sub-heading {
-    // text-align: center;
+    font-size: 2.2rem;
+    line-height: 40px;
+    font-weight: 500;
   }
   h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
   }
-  @media (max-width: 576px) {
-    margin-top: 12rem;
-    h2 {
-      line-height: 1.4;
-    }
-  }
+
   .linkText {
     color: #5d5dff;
   }
-`;
 
-
-export const IconContainer = styled.div`
-  background: linear-gradient(90deg, transparent, transparent),
-    linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%);
-  display: inline-flex;
-
-  border-radius: 50%;
-
-  img {
+  @media (max-width: 576px) {
+    margin-top: 2rem;
     padding: 2rem;
+    h2 {
+      text-align: center;
+      font-size: 2.2rem;
+    }
+    .sub-heading {
+      font-size: 1.8rem;
+    }
   }
 `;

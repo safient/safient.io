@@ -9,7 +9,11 @@ export const FeaturesContainer = styled.div`
   @media (max-width: 576px) {
     margin-top: 12rem;
     h2 {
-      line-height: 1.4;
+      text-align: center;
+      font-size: 2.2rem;
+    }
+    p {
+      font-size: 1.8rem;
     }
   }
 `;
@@ -39,13 +43,15 @@ export const CardsContainer = styled.div`
 
   h4 {
     margin-top: 2rem;
-    color: #fff;
+    color: #d9e3ea;
+    font-size: 2rem;
   }
 
   p {
     margin-top: 1rem;
     line-height: 1.9;
-    color: #d9e3ea;
+    color: #9ba9b4;
+    font-weight: 500;
   }
   @media (max-width: 57.6rem) {
     justify-content: center;

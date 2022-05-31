@@ -4,12 +4,11 @@ import { HowItWorks } from '../../src/components/how/how.component';
 
 function WalletPage() {
   return (
-    <div>
+    <>
       <FeatureSection />
       <HowItWorks />
       <SafeEarlyAccess />
-      
-    </div>
+    </>
   );
 }
 
