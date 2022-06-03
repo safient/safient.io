@@ -39,7 +39,8 @@ export const CtaContainer = styled.div`
       font-size: 2rem;
     }
     p {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
+      font-weight: 500;
     }
   }
 `;
@@ -54,13 +55,17 @@ export const StyledDiv = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
+
+  @media (max-width: 576px) {
+    align-items: center;
+    justify-content: flex-end;
+  }
 `;
 
 export const StyledForm = styled.form`
-  background: #25282c;
   padding: 4rem;
   border-radius: 0.5rem;
-
+  background: #181628;
   h4 {
     font-size: 2rem;
     text-align: center;
@@ -102,7 +107,6 @@ export const SubmitContainer = styled.div`
   margin-top: 1rem;
   button {
     width: 100%;
-    background: linear-gradient(89.58deg, #44bcf0 -19.85%, #818cf8 54.07%, #a099ff 120.75%);
     background: linear-gradient(90deg, transparent, transparent),
       linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%);
     color: #fff;

@@ -5,7 +5,8 @@ export const HeaderContainer = styled.header`
   padding: 2rem;
   position: sticky;
   top: 0;
-  background: #151719;
+  background: transparent;
+  backdrop-filter: saturate(180%) blur(20px);
   z-index: 50;
 `;
 
@@ -30,6 +31,7 @@ export const NavbarContainer = styled.nav`
     justify-content: center;
     gap: 2rem;
     color: #d9e3ea;
+
     @media (max-width: 57.6rem) {
       display: none;
     }
@@ -75,7 +77,6 @@ export const NavbarContainer = styled.nav`
 
 export const MobileMenuContainer = styled.div`
   width: 100%;
-
   padding: 4rem;
   background: #1d1f22;
 

@@ -13,7 +13,7 @@ export const TechStack = () => {
 
       <TechContainer>
         <LogoContainer>
-          <img src='./images/tech-icons.png' alt='' />
+          <img src='./images/tech.svg' alt='techstacks' />
         </LogoContainer>
         <DescriptionContainer>
           <StyledDiv>

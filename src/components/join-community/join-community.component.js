@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const JoinContainer = styled.section`
   position: relative;
-  background: #5d5dff;
-
+  background: linear-gradient(90deg, transparent, transparent),
+    linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%);
   color: #fff;
 `;
 export const BlobContainer = styled.div`
@@ -14,7 +14,6 @@ export const BlobContainer = styled.div`
 
 export const NewsLetterContainer = styled.div`
   padding: 6.4rem 7rem;
-
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -26,20 +25,6 @@ export const NewsLetterContainer = styled.div`
 
   p {
     font-size: 2rem;
-  }
-  input {
-    min-width: 30.4rem;
-    border: none;
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    font-size: 1.8rem;
-    background: #4b4acf;
-    color: #fff;
-    &::placeholder {
-      color: #9ba9b4;
-      opacity: 1;
-      font-weight: 200;
-    }
   }
 
   button {
@@ -55,15 +40,23 @@ export const NewsLetterContainer = styled.div`
   }
 
   @media (max-width: 57.6rem) {
-    padding: 1rem;
+    padding: 2rem 1.1rem;
     button {
       width: 100%;
-      margin: 0rem 0 2rem 0;
+      margin: 2rem 0 2rem 0;
     }
 
     input {
       width: 100%;
       margin: 2rem 0 2rem 0;
+    }
+
+    h3 {
+      font-size: 2.2rem;
+    }
+    p {
+      font-size: 1.8rem;
+      line-height: 3rem;
     }
   }
 `;
@@ -79,7 +72,7 @@ export const JoinCommunity = () => {
           <h3>Stay in the loop</h3>
           <p>Join our Discord server to stay on top of our developments</p>
         </div>
-          <button onClick={() => window.open('https://discord.safient.io/')}>Join Now</button>
+        <button onClick={() => window.open('https://discord.safient.io/')}>Join Now</button>
       </NewsLetterContainer>
     </JoinContainer>
   );

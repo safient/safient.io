@@ -6,6 +6,15 @@ export const TeckStackContainer = styled.section`
     text-align: center;
     font-size: 36px;
   }
+  @media (max-width: 57.6rem) {
+    h2 {
+      text-align: center;
+      font-size: 2.2rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
+  }
 `;
 
 export const TechContainer = styled.div`
@@ -46,5 +55,18 @@ export const StyledDiv = styled.div`
   h3 {
     font-size: 2.4rem;
     color: #d9e3ea;
+  }
+  p {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 36px;
+  }
+  @media (max-width: 57.6rem) {
+    h3 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
   }
 `;

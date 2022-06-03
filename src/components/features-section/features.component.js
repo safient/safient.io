@@ -19,11 +19,14 @@ const data = [
   },
 ];
 
- const FeatureSection = () => {
+const FeatureSection = () => {
   return (
     <FeaturesContainer>
       <h2>Safient Safes</h2>
-      <p className='sub-heading'>Safient Safe is a non custodial safe where you can store your crypto secrets that can be recovered or inherited at the right time.</p>
+      <p className='sub-heading'>
+        Safient Safe is a non custodial safe where you can store your crypto secrets that can be recovered or inherited
+        at the right time.
+      </p>
       <CardsContainer>
         {data.map(({ icon, heading, description }, index) => (
           <FeatureCard key={index}>
@@ -38,4 +41,4 @@ const data = [
     </FeaturesContainer>
   );
 };
-export default FeatureSection
+export default FeatureSection;

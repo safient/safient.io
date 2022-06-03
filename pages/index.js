@@ -8,11 +8,12 @@ import {
   TechStack,
   DeveloperResources,
   ProductSection,
+  Container,
 } from '../src/components';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Safient- Non-custodial secret Recovery and Inheritance Protocol</title>
         <meta name='description' content='Safient Protocol official website' />
@@ -26,13 +27,15 @@ export default function Home() {
         />
       </Head>
       <Hero />
-      <WhySection />
-      <Features />
-      <ProductSection />
-      <TechStack />
-      <DeveloperResources />
-      <Faq />
-      <JoinCommunity />
-    </div>
+      <Container>
+        <WhySection />
+        <Features />
+        <ProductSection />
+        <TechStack />
+        <DeveloperResources />
+        <Faq />
+        <JoinCommunity />
+      </Container>
+    </>
   );
 }

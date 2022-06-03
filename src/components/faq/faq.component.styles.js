@@ -19,7 +19,7 @@ export const FaqContainer = styled.div`
 `;
 
 export const QuestionsContainer = styled.div`
-  background: #25282c;
+  background: #181628;
   padding: 2rem 4rem;
   font-weight: 500;
   color: #d9e3ea;
@@ -37,6 +37,9 @@ export const AnswersContainer = styled.div`
   padding: 0rem 4rem 2rem 4rem;
   @media (max-width: 57.6rem) {
     padding: 0rem 2rem 2rem 2rem;
+    p {
+      font-weight: 500;
+    }
   }
 `;
 
@@ -53,6 +56,7 @@ export const ItemsContainer = styled.div`
     h2 {
       text-align: center;
       line-height: 1.4;
+      font-size: 2.2rem;
     }
   }
 `;

@@ -16,12 +16,13 @@ export const Navs = styled.nav`
   padding: 8rem 0 4rem 0;
   @media (max-width: 57.6rem) {
     justify-content: space-between;
+    gap: 1rem;
   }
 `;
 
 export const StyledDiv = styled.div`
   h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 2.1rem;
     color: #d9e3ea;
@@ -31,7 +32,7 @@ export const StyledDiv = styled.div`
   }
 
   li {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 2.4rem;
     color: #9ba9b4;
@@ -40,6 +41,16 @@ export const StyledDiv = styled.div`
   li:hover {
     color: #5d5dff;
     cursor: pointer;
+  }
+
+  span {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background: #02b07c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
   }
   @media (max-width: 57.6rem) {
     display: flex;

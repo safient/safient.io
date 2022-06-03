@@ -11,8 +11,8 @@ export const SectionContainer = styled.section`
 
   p {
     margin: 1.5rem 0;
-    font-size: 2.2rem;
-    line-height: 1.6;
+    font-size: 2rem;
+    line-height: 36px;
     font-weight: 500;
   }
 
@@ -20,9 +20,10 @@ export const SectionContainer = styled.section`
     margin: 1rem 0;
     h2 {
       text-align: center;
+      font-size: 2.2rem;
     }
     p {
-      text-align: justify;
+      font-size: 1.8rem;
     }
 
     padding: 2rem;

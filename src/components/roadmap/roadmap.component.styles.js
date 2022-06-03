@@ -12,7 +12,7 @@ export const RoadMaps = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: #25282c;
+  background: #181628;
   padding: 4rem;
   gap: 4rem;
   flex-wrap: wrap;
