@@ -8,11 +8,8 @@ export const HeroContainer = styled.section`
   width: 100%;
   flex-wrap: wrap;
   position: relative;
-
-  background-size: cover;
-
   background-image: url('images/hero/moving-lines.png');
-
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 
@@ -33,37 +30,6 @@ export const HeroContainer = styled.section`
     text-align: center;
   }
 
-  .blob-center {
-    position: absolute;
-    top: 60%;
-    left: -50%;
-    transform: rotate(-180deg);
-    z-index: -10;
-  }
-  .blob-right {
-    position: absolute;
-    z-index: -10;
-    top: -70%;
-    right: 30%;
-  }
-  .blob-left {
-    position: absolute;
-    z-index: -10;
-    top: -100%;
-  }
-  .blob-bottom {
-    position: absolute;
-    z-index: -10;
-    left: 100%;
-    top: 60%;
-    bottom: 10%;
-  }
-
-  .lines {
-    position: absolute;
-    z-index: -10;
-  }
-
   @media (max-width: 57.6rem) {
     .hero-image {
       display: none;
@@ -76,13 +42,7 @@ export const HeroContainer = styled.section`
       width: 90%;
       font-size: 2rem;
     }
-    .blob-center,
-    .blob-right,
-    .blob-center,
-    .blob-left,
-    .blob-bottom {
-      display: none;
-    }
+
     margin-top: 9rem;
   }
 `;
@@ -117,14 +77,6 @@ export const HeroContentContainer = styled.div`
       width: 90%;
       margin: 2rem auto;
     }
-    .blob-center,
-    .blob-right,
-    .blob-center,
-    .blob-left,
-    .blob-bottom {
-      display: none;
-    }
-    /* margin-top: 9rem; */
   }
 `;
 export const ButtonContainer = styled.div`
@@ -136,8 +88,6 @@ export const ButtonContainer = styled.div`
 `;
 
 export const GhostButton = styled.button`
-  background: #25282c;
-  /* remove this */
   background: #181628;
   border: none;
   color: #fff;
@@ -145,7 +95,6 @@ export const GhostButton = styled.button`
   font-size: 1.6rem;
   font-weight: 500;
   padding: 0.8rem 3.2rem;
-
   border-radius: 5px;
   cursor: pointer;
   &:hover {

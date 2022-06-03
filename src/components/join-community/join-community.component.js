@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const JoinContainer = styled.section`
   position: relative;
-  background: #5d5dff;
-
+  background: linear-gradient(90deg, transparent, transparent),
+    linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%);
   color: #fff;
 `;
 export const BlobContainer = styled.div`
@@ -14,7 +14,6 @@ export const BlobContainer = styled.div`
 
 export const NewsLetterContainer = styled.div`
   padding: 6.4rem 7rem;
-
   display: flex;
   flex-wrap: wrap;
   align-items: center;

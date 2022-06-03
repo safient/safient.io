@@ -1,4 +1,3 @@
-import styled from 'styled-components';
 import { Span } from '../span/span.component';
 import { BuildContainer } from './build.component.styles';
 

@@ -5,9 +5,8 @@ export const HeaderContainer = styled.header`
   padding: 2rem;
   position: sticky;
   top: 0;
-  background: #151719;
-  /* remove this later */
   background: transparent;
+  backdrop-filter: saturate(180%) blur(20px);
   z-index: 50;
 `;
 
@@ -16,7 +15,6 @@ export const NavbarContainer = styled.nav`
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  /* background: #151719; */
   img {
     width: 110px;
     height: auto;

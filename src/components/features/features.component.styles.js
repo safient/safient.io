@@ -19,9 +19,6 @@ export const FeaturesContainer = styled.div`
 `;
 
 export const FeatureCard = styled.div`
-  background: #25282c;
-
-  /* remove this later */
   background: #181628;
   padding: 4rem;
   flex: 0 0 38.4rem;
@@ -62,8 +59,6 @@ export const CardsContainer = styled.div`
 `;
 
 export const IconContainer = styled.div`
-  background: #5d5dff;
-
   background: linear-gradient(90deg, transparent, transparent),
     linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%);
   display: inline-flex;

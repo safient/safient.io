@@ -21,7 +21,6 @@ export const WhySection = () => {
         </div>
 
         <div className='graphics'>
-          {/* <img src='./images/hero.png' alt='graphics' /> */}
           <img src='./images/why.png' alt='graphics' />
         </div>
       </StyledDiv>

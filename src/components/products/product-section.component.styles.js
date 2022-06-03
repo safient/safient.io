@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ProductsContainer = styled.div`
   margin: 10rem 0;
+
   h2 {
     text-align: center;
     font-size: 3.6rem;
@@ -38,7 +39,6 @@ export const TryNowButton = styled.button`
 
 export const StyledDiv = styled.section`
   position: relative;
-  background: #5d5dff;
   background: linear-gradient(90deg, transparent, transparent),
     linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%);
   color: #fff;

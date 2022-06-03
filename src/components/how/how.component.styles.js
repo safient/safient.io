@@ -61,6 +61,7 @@ export const PreviewContainer = styled.div`
   width: 100%;
   padding: 4rem;
   order: 2;
+  background: #181628;
   h4 {
     // color: #5d5dff;
     margin-bottom: 5rem;
@@ -95,9 +96,9 @@ export const PreviewContainer = styled.div`
 
 export const StyledDiv = styled.div`
   padding: 2rem;
-  background: #25282c;
   border-radius: 0.5rem;
   margin-top: 2rem;
+  background: #181628;
   h3 {
     color: #d9e3ea;
     margin-bottom: 1rem;
