@@ -43,7 +43,7 @@ export const HeroContainer = styled.section`
       font-size: 2rem;
     }
 
-    margin-top: 9rem;
+    margin-top: -6rem;
   }
 `;
 export const HeroContentContainer = styled.div`
