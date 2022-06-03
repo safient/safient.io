@@ -1,14 +1,20 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.section`
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
+  width: 100%;
   flex-wrap: wrap;
-  margin: 28rem auto;
   position: relative;
+
+  background-size: cover;
+
+  background-image: url('images/hero/moving-lines.png');
+
+  background-repeat: no-repeat;
+  background-position: top;
 
   .hero-image {
     width: 70rem;
@@ -18,19 +24,13 @@ export const HeroContainer = styled.section`
   .sub-heading {
     font-size: 2.4rem;
     font-weight: 500;
-    line-height: 1.4;
+    line-height: 1.8;
     text-align: center;
     width: 70%;
     margin: 2rem auto;
   }
   p {
     text-align: center;
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 5.4rem;
-    line-height: 1.1;
   }
 
   .blob-center {
@@ -58,6 +58,12 @@ export const HeroContainer = styled.section`
     top: 60%;
     bottom: 10%;
   }
+
+  .lines {
+    position: absolute;
+    z-index: -10;
+  }
+
   @media (max-width: 57.6rem) {
     .hero-image {
       display: none;
@@ -80,7 +86,47 @@ export const HeroContainer = styled.section`
     margin-top: 9rem;
   }
 `;
+export const HeroContentContainer = styled.div`
+  width: 1200px;
+  margin: 0 auto;
+  h2 {
+    text-align: center;
+    font-size: 5.4rem;
+    line-height: 1.1;
+  }
 
+  .sub-heading {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+    width: 70%;
+    margin: 2rem auto;
+  }
+  @media (max-width: 57.6rem) {
+    width: 100%;
+    margin: 0 auto;
+    h2 {
+      text-align: center;
+      font-size: 3rem;
+      line-height: 1.1;
+    }
+
+    .sub-heading {
+      font-size: 2rem;
+      width: 90%;
+      margin: 2rem auto;
+    }
+    .blob-center,
+    .blob-right,
+    .blob-center,
+    .blob-left,
+    .blob-bottom {
+      display: none;
+    }
+    /* margin-top: 9rem; */
+  }
+`;
 export const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
@@ -91,6 +137,8 @@ export const ButtonContainer = styled.div`
 
 export const GhostButton = styled.button`
   background: #25282c;
+  /* remove this */
+  background: #181628;
   border: none;
   color: #fff;
   font: inherit;

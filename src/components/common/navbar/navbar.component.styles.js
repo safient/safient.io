@@ -6,6 +6,8 @@ export const HeaderContainer = styled.header`
   position: sticky;
   top: 0;
   background: #151719;
+  /* remove this later */
+  background: transparent;
   z-index: 50;
 `;
 

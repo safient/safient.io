@@ -8,6 +8,7 @@ import {
   TechStack,
   DeveloperResources,
   ProductSection,
+  Container,
 } from '../src/components';
 
 export default function Home() {
@@ -26,13 +27,15 @@ export default function Home() {
         />
       </Head>
       <Hero />
-      <WhySection />
-      <Features />
-      <ProductSection />
-      <TechStack />
-      <DeveloperResources />
-      <Faq />
-      <JoinCommunity />
+      <Container>
+        <WhySection />
+        <Features />
+        <ProductSection />
+        <TechStack />
+        <DeveloperResources />
+        <Faq />
+        <JoinCommunity />
+      </Container>
     </>
   );
 }

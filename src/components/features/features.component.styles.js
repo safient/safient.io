@@ -20,6 +20,9 @@ export const FeaturesContainer = styled.div`
 
 export const FeatureCard = styled.div`
   background: #25282c;
+
+  /* remove this later */
+  background: #181628;
   padding: 4rem;
   flex: 0 0 38.4rem;
   transition: box-shadow 0.3s;

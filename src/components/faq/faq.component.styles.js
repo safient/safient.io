@@ -20,6 +20,8 @@ export const FaqContainer = styled.div`
 
 export const QuestionsContainer = styled.div`
   background: #25282c;
+  /* remove this */
+  background: #181628;
   padding: 2rem 4rem;
   font-weight: 500;
   color: #d9e3ea;

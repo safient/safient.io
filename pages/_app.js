@@ -37,6 +37,12 @@ const GlobalStyles = createGlobalStyle`
    font-size: var( --fontBody);
    color:var(--greyLight);
     line-height: 2;
+    /* exp */
+    background-color: #09040f;
+    background-image: linear-gradient(360deg, #09040f, rgba(0, 0, 0, 0.5)), linear-gradient(140deg, #0c86ee, #6a59ff 22%, rgba(239, 69, 179, 0.6) 38%, #03395d 57%, #142f5a 75%, #011c34);
+
+    background-image: linear-gradient(360deg, #09040f, rgba(0, 0, 0, 0.5)), linear-gradient(140deg, #23262d 13%, #034083 31%, #9c468e 65%, #9c468e 71%, #1e1311 82%, #1e1311);
+/* exp */
   }
   h2 {
     color: #d9e3ea;
@@ -57,9 +63,9 @@ function MyApp({ Component, pageProps }) {
     <>
       <GlobalStyles />
       <Navbar isActive={isActive} setIsActive={setIsActive} />
-      <Container onClick={() => setIsActive(!isActive)}>
+      <div onClick={() => setIsActive(!isActive)}>
         <Component {...pageProps} />
-      </Container>
+      </div>
       <Footer />
     </>
   );
