@@ -48,7 +48,7 @@ export const Footer = () => {
                 <a href='https://careers.safient.io' target='_next'>
                   Career
                 </a>
-                <span>We're hiring!</span>
+                <span>We&apos;re hiring!</span>
               </li>
             </ul>
           </StyledDiv>

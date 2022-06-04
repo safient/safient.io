@@ -68,7 +68,7 @@ export const HeroContentContainer = styled.div`
     margin: 0 auto;
     h2 {
       text-align: center;
-      font-size: 3rem;
+      font-size: 4.5rem;
       line-height: 1.1;
     }
 
