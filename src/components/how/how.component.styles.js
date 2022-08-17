@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const SectionContainer = styled.section`
   margin: 10rem 0;
@@ -20,7 +20,6 @@ export const SectionContainer = styled.section`
   }
 
   @media (max-width: 576px) {
-    /* margin-top: 12rem; */
     h2 {
       text-align: center;
       font-size: 2.2rem;

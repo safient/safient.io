@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const RoadMapContainer = styled.section`
   border-radius: 0.5rem;
@@ -8,18 +8,12 @@ export const RoadMapContainer = styled.section`
 `;
 
 export const RoadMaps = styled.div`
-  margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: #181628;
-  padding: 4rem;
-  gap: 4rem;
+  padding: 3rem 1rem 3rem 1rem;
+  gap: 0rem;
   flex-wrap: wrap;
-  &:hover {
-    cursor: pointer;
-    box-shadow: 0 0 12px #5d5dff;
-  }
 `;
 
 export const YearContainer = styled.div`
@@ -27,14 +21,16 @@ export const YearContainer = styled.div`
 
   p {
     color: #d9e3ea;
-    font-weight: 500;
-    text-align: center;
+    font-weight: 900;
+    text-align: left;
+    margin: 1rem 0rem 1rem 0rem;
   }
 `;
 
 export const Description = styled.div`
   max-width: 78rem;
-
+  background: #181628;
+  padding: 2rem 3rem 2rem 3rem;
   h4 {
     color: #d9e3ea;
     font-weight: 500;

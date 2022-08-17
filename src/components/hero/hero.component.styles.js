@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeroContainer = styled.section`
   display: flex;
@@ -8,7 +8,7 @@ export const HeroContainer = styled.section`
   width: 100%;
   flex-wrap: wrap;
   position: relative;
-  background-image: url('images/hero/moving-lines.png');
+  background-image: url("images/hero/moving-lines.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -43,7 +43,7 @@ export const HeroContainer = styled.section`
       font-size: 2rem;
     }
 
-    margin-top: -6rem;
+    margin-top: -4rem;
   }
 `;
 export const HeroContentContainer = styled.div`

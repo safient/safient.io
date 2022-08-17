@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.footer`
   margin: 5rem 0 1rem;
   @media (max-width: 57.6rem) {
-    padding: 3rem;
+    padding: 0rem 2rem 0rem 2rem;
   }
 `;
 
@@ -13,7 +13,7 @@ export const Navs = styled.nav`
   flex-wrap: wrap;
   justify-content: space-evenly;
   border-top: 1px solid #9ba9b4;
-  padding: 8rem 0 4rem 0;
+  padding: 4rem 0 2rem 0;
   @media (max-width: 57.6rem) {
     justify-content: space-between;
     gap: 1rem;
