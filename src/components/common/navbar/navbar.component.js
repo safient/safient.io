@@ -58,9 +58,9 @@ export const Navbar = () => {
             </a>
           </li>
 
-          <a href="/get-started">
+          <Link href="/get-started">
             <Button>Try Now</Button>
-          </a>
+          </Link>
         </ul>
         {/* mobile nav */}
         <div className="hamburger">
@@ -98,7 +98,7 @@ export const Navbar = () => {
                 <li className={pathname === "/docs" && "active"}>
                   <a
                     href="https://docs.safient.io"
-                    target="_blank"
+                    target='_next'
                     rel="noreferrer">
                     Docs
                   </a>
@@ -107,16 +107,16 @@ export const Navbar = () => {
                 <li className={pathname === "/developers" && "active"}>
                   <a
                     href="https://code.safient.io"
-                    target="_blank"
+                    target='_next'
                     rel="noreferrer">
                     Developers
                   </a>
                 </li>
 
                 {/* <li className={pathname === '/app' && 'active'}> */}
-                <a href="/get-started">
+                <Link href="/get-started" >
                   <Button>Try Now</Button>
-                </a>
+                </Link>
               </ul>
             </MobileMenuContainer>
           )}
