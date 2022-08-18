@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const TeckStackContainer = styled.section`
   margin: 8rem 0 8rem 0;
@@ -45,7 +45,7 @@ export const DescriptionContainer = styled.div`
   flex: 2;
   align-self: center;
   @media (max-width: 57.6rem) {
-    margin-top: -8rem;
+    margin: -8rem 1rem 0px 1rem;
   }
 `;
 

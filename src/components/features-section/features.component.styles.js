@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FeaturesContainer = styled.div`
   margin: 10rem 0;
@@ -34,7 +34,12 @@ export const FeatureCard = styled.div`
   &:hover {
     cursor: pointer;
     box-shadow: 0 0 11px #5d5dff;
-    border-image-source: linear-gradient(43deg, #e85602 0, #f5b46c 29%, #d9caf4 68%);
+    border-image-source: linear-gradient(
+      43deg,
+      #e85602 0,
+      #f5b46c 29%,
+      #d9caf4 68%
+    );
   }
   @media (max-width: 576px) {
     flex: 0 0 34.4rem;
