@@ -6,6 +6,9 @@ export const JoinContainer = styled.section`
     linear-gradient(209.87deg, #14acb6 31.2%, #7141d7 71.49%);
   color: #fff;
   border-radius: 5px;
+  @media (max-width: 57.6rem) {
+    border-radius: 0px;
+  }
 `;
 export const BlobContainer = styled.div`
   position: absolute;

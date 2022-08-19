@@ -40,6 +40,7 @@ export const TryNowButton = styled.button`
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 200px;
 `;
 
 export const StyledDiv = styled.section`
@@ -65,8 +66,10 @@ export const Product = styled.div`
   justify-content: space-between;
   gap: 4rem;
   .description {
-    align-self: center;
-    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
     flex: 1;
   }
 
@@ -78,7 +81,7 @@ export const Product = styled.div`
     line-height: 1.6;
     font-size: 2rem;
     font-weight: 500;
-    margin: 2rem auto;
+    margin-bottom: 1rem;
   }
 
   .mobile {
@@ -95,7 +98,11 @@ export const Product = styled.div`
     }
 
     .description {
+      display: flex;
       text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     .product-heading {
@@ -109,7 +116,7 @@ export const Product = styled.div`
     }
 
     .mobile {
-      margin-left: 2rem;
+      margin: 0 auto;
     }
   }
 `;

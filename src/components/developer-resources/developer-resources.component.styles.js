@@ -20,6 +20,7 @@ export const FeaturesContainer = styled.div`
     }
     .sub-heading {
       font-size: 1.8rem;
+      margin: 0rem 1rem 0rem 1rem;
     }
   }
 `;
@@ -67,6 +68,8 @@ export const CardsContainer = styled.div`
   }
   @media (max-width: 57.6rem) {
     justify-content: center;
+    flex-direction: column;
+    margin: 1rem 2rem 1rem 2rem;
   }
 `;
 

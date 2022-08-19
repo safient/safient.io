@@ -59,6 +59,8 @@ export const CardsContainer = styled.div`
   }
   @media (max-width: 57.6rem) {
     justify-content: center;
+    flex-direction: column;
+    margin: 1rem 2rem 1rem 2rem;
   }
 `;
 
