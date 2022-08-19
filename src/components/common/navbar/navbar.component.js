@@ -98,7 +98,7 @@ export const Navbar = () => {
               <ul onClick={() => setIsActive(!isActive)}>
                 <li
                   className={
-                    pathname === "/about" && "active" ? "active" : "disabled"
+                    pathname === "/roadmap" && "active" ? "active" : "disabled"
                   }>
                   <Link href="/roadmap">Roadmap</Link>
                 </li>
