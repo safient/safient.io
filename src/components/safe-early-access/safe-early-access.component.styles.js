@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeroContainer = styled.div`
   display: flex;
@@ -119,7 +119,12 @@ export const SubmitContainer = styled.div`
     cursor: pointer;
 
     &:hover {
-      background: linear-gradient(89.58deg, #44bcf0 -19.85%, #818cf8 54.07%, #a099ff 120.75%);
+      background: linear-gradient(
+        89.58deg,
+        #44bcf0 -19.85%,
+        #818cf8 54.07%,
+        #a099ff 120.75%
+      );
     }
   }
 `;

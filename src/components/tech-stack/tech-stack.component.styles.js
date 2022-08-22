@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const TeckStackContainer = styled.section`
-  margin: 8rem 0 8rem 0;
+  margin: 8rem 1rem 8rem 1rem;
   h2 {
     text-align: center;
     font-size: 36px;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.footer`
   margin: 5rem 0 1rem;
   @media (max-width: 57.6rem) {
-    padding: 0rem 2rem 0rem 2rem;
+    padding: 0rem 2rem;
   }
 `;
 

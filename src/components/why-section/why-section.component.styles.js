@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from "styled-components";
 
 export const SectionContainer = styled.section`
   margin: 6rem 0;
@@ -24,6 +24,7 @@ export const SectionContainer = styled.section`
     }
     p {
       font-size: 1.8rem;
+      text-align: center;
     }
 
     padding: 2rem;

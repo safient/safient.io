@@ -44,7 +44,7 @@ export const AnswersContainer = styled.div`
 `;
 
 export const ItemsContainer = styled.div`
-  margin: 6rem 0 8rem 0;
+  margin: 6rem 1rem 8rem 1rem;
 
   h2 {
     text-align: center;

@@ -38,21 +38,33 @@ export const Navbar = () => {
           <img src="logo.svg" alt="" />
         </Link>
         <ul>
-          <li className={pathname === "/about" && "active"}>
+          <li
+            className={
+              pathname === "/about" && "active" ? "active" : "disabled"
+            }>
             <Link href="/about">About</Link>
           </li>
-          <li className={pathname === "/blog" && "active"}>
+          <li
+            className={
+              pathname === "/blog" && "active" ? "active" : "disabled"
+            }>
             <a href="https://blog.safient.io" target="_blank" rel="noreferrer">
               Blog
             </a>
           </li>
-          <li className={pathname === "/docs" && "active"}>
+          <li
+            className={
+              pathname === "/docs" && "active" ? "active" : "disabled"
+            }>
             <a href="https://docs.safient.io" target="_blank" rel="noreferrer">
               Docs
             </a>
           </li>
 
-          <li className={pathname === "/developers" && "active"}>
+          <li
+            className={
+              pathname === "/developers" && "active" ? "active" : "disabled"
+            }>
             <a href="https://code.safient.io" target="_blank" rel="noreferrer">
               Developers
             </a>
@@ -84,10 +96,16 @@ export const Navbar = () => {
               onClick={() => setIsActive(!isActive)}
               ref={ref}>
               <ul onClick={() => setIsActive(!isActive)}>
-                <li className={pathname === "/about" && "active"}>
+                <li
+                  className={
+                    pathname === "/roadmap" && "active" ? "active" : "disabled"
+                  }>
                   <Link href="/roadmap">Roadmap</Link>
                 </li>
-                <li className={pathname === "/blog" && "active"}>
+                <li
+                  className={
+                    pathname === "/blog" && "active" ? "active" : "disabled"
+                  }>
                   <a
                     href="https://blog.safient.io"
                     target="_blank"
@@ -95,26 +113,34 @@ export const Navbar = () => {
                     Blog
                   </a>
                 </li>
-                <li className={pathname === "/docs" && "active"}>
+                <li
+                  className={
+                    pathname === "/docs" && "active" ? "active" : "disabled"
+                  }>
                   <a
                     href="https://docs.safient.io"
-                    target='_next'
+                    target="_next"
                     rel="noreferrer">
                     Docs
                   </a>
                 </li>
 
-                <li className={pathname === "/developers" && "active"}>
+                <li
+                  className={
+                    pathname === "/developers" && "active"
+                      ? "active"
+                      : "disabled"
+                  }>
                   <a
                     href="https://code.safient.io"
-                    target='_next'
+                    target="_next"
                     rel="noreferrer">
                     Developers
                   </a>
                 </li>
 
                 {/* <li className={pathname === '/app' && 'active'}> */}
-                <Link href="/get-started" >
+                <Link href="/get-started">
                   <Button>Try Now</Button>
                 </Link>
               </ul>

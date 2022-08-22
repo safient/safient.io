@@ -20,13 +20,14 @@ export const FeaturesContainer = styled.div`
     }
     .sub-heading {
       font-size: 1.8rem;
+      margin: 0rem 1rem 0rem 1rem;
     }
   }
 `;
 
 export const FeatureCard = styled.div`
   background: #181628;
-  padding: 2rem 3rem 2rem 3rem;
+  padding: 2rem 3rem;
   flex: 0 0 38.4rem;
   transition: box-shadow 0.3s;
 
@@ -67,6 +68,8 @@ export const CardsContainer = styled.div`
   }
   @media (max-width: 57.6rem) {
     justify-content: center;
+    flex-direction: column;
+    margin: 1rem 2rem;
   }
 `;
 

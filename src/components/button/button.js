@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 export const StyledButton = styled.button`
   background: linear-gradient(90deg, transparent, transparent),
@@ -12,8 +12,15 @@ export const StyledButton = styled.button`
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   &:hover {
-    background: linear-gradient(89.58deg, #44bcf0 -19.85%, #818cf8 54.07%, #a099ff 120.75%);
+    background: linear-gradient(
+      89.58deg,
+      #44bcf0 -19.85%,
+      #818cf8 54.07%,
+      #a099ff 120.75%
+    );
   }
 `;
 
