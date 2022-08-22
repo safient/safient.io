@@ -12,7 +12,7 @@ export const ProductsContainer = styled.div`
     margin-bottom: 6rem;
     font-size: 2rem;
     font-weight: 500;
-    padding: 0rem 2rem 0rem 2rem;
+    padding: 0rem 2rem;
   }
   @media (max-width: 57.6rem) {
     h2 {

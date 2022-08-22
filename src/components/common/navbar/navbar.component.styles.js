@@ -81,7 +81,7 @@ export const NavbarContainer = styled.nav`
 
 export const MobileMenuContainer = styled.div`
   width: 100%;
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem 2rem;
   background: #1d1f22;
 
   ul {

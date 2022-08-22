@@ -30,7 +30,7 @@ export const YearContainer = styled.div`
 export const Description = styled.div`
   max-width: 78rem;
   background: #181628;
-  padding: 2rem 3rem 2rem 3rem;
+  padding: 2rem 3rem;
   h4 {
     color: #d9e3ea;
     font-weight: 500;

@@ -56,7 +56,7 @@ export const NewsLetterContainer = styled.div`
 
     input {
       width: 100%;
-      margin: 2rem 0 2rem 0;
+      margin: 2rem 0;
     }
 
     h3 {
