@@ -19,6 +19,11 @@ export const Footer = () => {
 								<Link href='/about'>About</Link>
 							</li>
 						</ul>
+						<ul>
+							<li>
+								<Link href='/intro'>Intro</Link>
+							</li>
+						</ul>
 					</StyledDiv>
 					<StyledDiv>
 						<h3>Developer Resources</h3>

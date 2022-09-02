@@ -12,3 +12,5 @@ export * from './why-section/why-section.component';
 export * from './developer-resources/developer-resources.component';
 export * from './span/span.component';
 export * from './products/product-section.component';
+export * from './intro-header/header.component';
+export * from './intro-body/body.component';
