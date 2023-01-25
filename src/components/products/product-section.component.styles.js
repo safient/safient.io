@@ -64,6 +64,7 @@ export const Product = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 4rem;
+  margin-top: 2rem;
   .description {
     align-self: center;
     width: 90%;
@@ -79,6 +80,7 @@ export const Product = styled.div`
     font-size: 2rem;
     font-weight: 500;
     margin: 2rem auto;
+    color: #fff;
   }
 
   .mobile {

@@ -1,7 +1,7 @@
-import '../styles/globals.css';
-import styled, { createGlobalStyle } from 'styled-components';
-import { Container, Footer, Navbar } from '../src/components';
-import { useState } from 'react';
+import "../styles/globals.css";
+import styled, { createGlobalStyle } from "styled-components";
+import { Container, Footer, Navbar, TopBanner } from "../src/components";
+import { useState } from "react";
 
 const GlobalStyles = createGlobalStyle`
 
@@ -48,7 +48,7 @@ const GlobalStyles = createGlobalStyle`
     color: #d9e3ea;
   }
   p{
-    color:##9ba9b4;
+    color:#9ba9b4;
   }
   ul{
     list-style:none;
@@ -62,6 +62,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <GlobalStyles />
+      <TopBanner />
       <Navbar isActive={isActive} setIsActive={setIsActive} />
       <div onClick={() => setIsActive(!isActive)}>
         <Component {...pageProps} />
