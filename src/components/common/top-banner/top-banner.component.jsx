@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const TopBannerContainer = styled.div`
   height: 60px;
-
   background-color: #181628;
   color: #fff;
   display: flex;
@@ -17,6 +16,13 @@ export const TopBannerContainer = styled.div`
     color: #fff;
     font-size: 18px;
     cursor: pointer;
+  }
+  @media (max-width: 576px) {
+    p,
+    span {
+      padding: 10px;
+      font-size: 12px;
+    }
   }
 `;
 

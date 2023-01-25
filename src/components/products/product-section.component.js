@@ -45,12 +45,13 @@ export const ProductSection = () => {
           <img src={`/images/safes.png`} alt="wallet" />
           <div className="description">
             <h3 className="product-heading">
-              Account Abstraction powered Mobile Wallet
+              Create your Contract Account and unleashed the true power of
+              Account Abstraction
             </h3>
             <p className="product-subHeading">
-              Manage your crypto secrets and recovery instructions securely and
-              conveniently that help you or your beneficiaries to claim crypto
-              assets without intermediaries.
+              Forget Seedphrases. Recover your wallet with your designated
+              Recovery Contacts. Designed to be future censorship resistant and
+              free from third party control with ERC-4337
             </p>
 
             <TryNowButton onClick={() => router.push("/safes")}>
